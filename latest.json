@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-02T18:06:52.750616",
+    "last_updated": "2026-04-02T20:03:41.603520",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -231,7 +231,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1997,
+      "steps": 5173,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -444,7 +444,7 @@
           "end": "2026-04-02"
         },
         "weight_kg": 63.0,
-        "weight_source": "athlete_profile",
+        "weight_source": "wellness_recent",
         "cycling": {
           "anchors": {
             "300s": {
@@ -569,10 +569,10 @@
         "stream_2": {
           "planned_tss_delta": 15.49,
           "hard_sessions_planned": 1,
-          "race_proximity": null,
-          "next_week_load": 9.17,
+          "race_proximity": 44,
+          "next_week_load": 15.63,
           "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 1.4
+          "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -605,7 +605,7 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-02T18:06:52.749439",
+    "calculation_timestamp": "2026-04-02T20:03:41.602416",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -643,7 +643,7 @@
       "work_kj": 1387.2,
       "calories": 1401,
       "carbs_used": 351,
-      "carbs_ingested": null,
+      "carbs_ingested": 90,
       "variability_index": 1.2091503,
       "decoupling": 7.20387,
       "efficiency_factor": 1.2585034,
@@ -1791,7 +1791,7 @@
     },
     {
       "date": "2026-04-02",
-      "weight_kg": null,
+      "weight_kg": 63.0,
       "resting_hr": 42,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
@@ -1818,7 +1818,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1997,
+      "steps": 5173,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1857,19 +1857,6 @@
       "description": ""
     },
     {
-      "id": 100219316,
-      "date": "2026-04-03",
-      "name": "ftp",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 155,
-      "duration_hours": 2.1,
-      "duration_formatted": "2h6m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "-20m z2\n-8m 300W\n-10m z1\n-8m 300W\n-1h20m z2"
-    },
-    {
       "id": 100219176,
       "date": "2026-04-04",
       "name": "a",
@@ -1883,7 +1870,20 @@
       "description": "-30m z2\n\n8x\n-4m z4 50rpm\n-8m z2 90 rpm\n\n-30m z2"
     },
     {
-      "id": 100219707,
+      "id": 100219316,
+      "date": "2026-04-05",
+      "name": "ftp",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 155,
+      "duration_hours": 2.1,
+      "duration_formatted": "2h6m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-20m z2\n-8m 300W\n-10m z1\n-8m 300W\n-1h20m z2"
+    },
+    {
+      "id": 102185206,
       "date": "2026-04-06",
       "name": "a",
       "type": "WORKOUT",
@@ -1896,34 +1896,111 @@
       "description": "-3h z2"
     },
     {
-      "id": 100219288,
+      "id": 102185304,
       "date": "2026-04-07",
+      "name": "aa",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 192,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": "20m | 3\u00d715m / 5m rec | 20m | 1h20m",
+      "has_terrain": false,
+      "description": "-20m z2\n\n3x\n-15m z4\n-5m z2\n\n-20m z1\n\n-1h20m z2"
+    },
+    {
+      "id": 102185318,
+      "date": "2026-04-08",
       "name": "a",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 155,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
+      "planned_tss": 103,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-3h z2"
+      "description": "-2h z2"
     },
     {
-      "id": 100219438,
-      "date": "2026-04-07",
+      "id": 102185505,
+      "date": "2026-04-09",
+      "name": "aa",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 157,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": "15m | 2\u00d720m @223W / 10m rec | 15m | 1h",
+      "has_terrain": false,
+      "description": "-15m z2\n\n2x\n-20m 90-100%\n-10m z2\n\n-15m z1 \n\n-1h z2"
+    },
+    {
+      "id": 102185566,
+      "date": "2026-04-11",
+      "name": "aa",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 103,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-2h z2"
+    },
+    {
+      "id": 102185573,
+      "date": "2026-04-12",
+      "name": "aa",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 129,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-2h30m z2"
+    },
+    {
+      "id": 102185821,
+      "date": "2026-04-14",
       "name": "a",
       "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": null,
+      "sport_type": "Ride",
+      "planned_tss": 52,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "description_preview": "-1h z2"
     },
     {
-      "id": 100219277,
-      "date": "2026-04-08",
+      "id": 102185832,
+      "date": "2026-04-15",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 131,
+      "duration_hours": 1.77,
+      "duration_formatted": "1h46m",
+      "workout_summary": "15m | 3\u00d712m @240W / 5m rec | 40m",
+      "has_terrain": false
+    },
+    {
+      "id": 102185836,
+      "date": "2026-04-16",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-1h z2"
+    },
+    {
+      "id": 102185927,
+      "date": "2026-04-17",
       "name": "a",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -1932,24 +2009,99 @@
       "duration_formatted": "1h45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-1h45m z2"
+      "description_preview": "-1h45m z2"
     },
     {
-      "id": 100219443,
-      "date": "2026-04-09",
+      "id": 102185949,
+      "date": "2026-04-18",
+      "name": "aa",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 167,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": "15m | 3\u00d715m @229W / 5m rec | 10m | 1h5m",
+      "has_terrain": false
+    },
+    {
+      "id": 102185951,
+      "date": "2026-04-19",
+      "name": "aa",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 155,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-3h z2"
+    },
+    {
+      "id": 102186601,
+      "date": "2026-04-21",
       "name": "a",
       "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": null,
+      "sport_type": "Ride",
+      "planned_tss": 52,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "description_preview": "-1h z2"
     },
     {
-      "id": 100219446,
-      "date": "2026-04-10",
+      "id": 102190110,
+      "date": "2026-04-22",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 112,
+      "duration_hours": 1.7,
+      "duration_formatted": "1h42m",
+      "workout_summary": "20m | 4\u00d74m @264W / 4m rec | 50m",
+      "has_terrain": false
+    },
+    {
+      "id": 102186760,
+      "date": "2026-04-23",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-1h z2"
+    },
+    {
+      "id": 102186811,
+      "date": "2026-04-24",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 91,
+      "duration_hours": 1.75,
+      "duration_formatted": "1h45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-1h45m z2"
+    },
+    {
+      "id": 102190116,
+      "date": "2026-04-25",
+      "name": "aa",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 159,
+      "duration_hours": 2.43,
+      "duration_formatted": "2h26m",
+      "workout_summary": "15m | 6\u00d73m @276W / 3m rec | 10m | 1h25m",
+      "has_terrain": false
+    },
+    {
+      "id": 100219438,
+      "date": "2026-04-26",
       "name": "a",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
@@ -1961,8 +2113,59 @@
       "description_preview": null
     },
     {
-      "id": 100219175,
-      "date": "2026-04-12",
+      "id": 102186922,
+      "date": "2026-04-26",
+      "name": "aa",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 155,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-3h z2"
+    },
+    {
+      "id": 102190405,
+      "date": "2026-04-28",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-1h z2"
+    },
+    {
+      "id": 102190411,
+      "date": "2026-04-29",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 125,
+      "duration_hours": 1.83,
+      "duration_formatted": "1h50m",
+      "workout_summary": "20m | 5\u00d74m @264W / 4m rec | 50m",
+      "has_terrain": false
+    },
+    {
+      "id": 102190455,
+      "date": "2026-04-30",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-1h z2"
+    },
+    {
+      "id": 102190501,
+      "date": "2026-05-01",
       "name": "a",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -1972,15 +2175,154 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "-1h45m z2"
+    },
+    {
+      "id": 102190521,
+      "date": "2026-05-02",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 135,
+      "duration_hours": 1.9,
+      "duration_formatted": "1h54m",
+      "workout_summary": "20m | 4\u00d75m @252W / 3m rec | 2\u00d73m @276W / 3m rec | 50m",
+      "has_terrain": false
+    },
+    {
+      "id": 102190801,
+      "date": "2026-05-03",
+      "name": "aa",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 155,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-3h z2"
+    },
+    {
+      "id": 102190861,
+      "date": "2026-05-05",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-1h z2"
+    },
+    {
+      "id": 102190927,
+      "date": "2026-05-06",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 130,
+      "duration_hours": 1.93,
+      "duration_formatted": "1h55m30s",
+      "workout_summary": "15m | 2\u00d710m @235W / 5m rec | 3\u00d72m @270W / 1m30s rec | 1h",
+      "has_terrain": false
+    },
+    {
+      "id": 102191462,
+      "date": "2026-05-07",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-1h z2"
+    },
+    {
+      "id": 102191465,
+      "date": "2026-05-08",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-1h z2"
+    },
+    {
+      "id": 102191794,
+      "date": "2026-05-09",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 132,
+      "duration_hours": 1.9,
+      "duration_formatted": "1h54m",
+      "workout_summary": "15m | 3\u00d78m @240W / 3m rec | 2\u00d72m @270W / 1m rec | 1h",
+      "has_terrain": false
+    },
+    {
+      "id": 102191473,
+      "date": "2026-05-10",
+      "name": "aa",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 155,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-3h z2"
+    },
+    {
+      "id": 102192338,
+      "date": "2026-05-12",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 75,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-1h z3"
+    },
+    {
+      "id": 102192410,
+      "date": "2026-05-13",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 52,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "-1h z2"
+    },
+    {
+      "id": 102192358,
+      "date": "2026-05-14",
+      "name": "a",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 101,
+      "duration_hours": 1.65,
+      "duration_formatted": "1h39m",
+      "workout_summary": "15m | 3\u00d75m @235W / 3m rec | 1h",
+      "has_terrain": false
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 36,
+    "success": 12,
+    "patternA": 12,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 6
+    "bail_no_match": 24
   },
   "weekly_summary": {
     "total_training_hours": 3.52,
@@ -1991,8 +2333,38 @@
     "avg_resting_hr": 44.3
   },
   "race_calendar": {
-    "next_race": null,
-    "all_races": [],
+    "next_race": {
+      "name": "arlamow",
+      "date": "2026-05-16",
+      "category": "RACE_B",
+      "type": "Ride",
+      "days_until": 44,
+      "moving_time_seconds": null,
+      "distance_meters": null,
+      "has_terrain": false
+    },
+    "all_races": [
+      {
+        "name": "arlamow",
+        "date": "2026-05-16",
+        "category": "RACE_B",
+        "type": "Ride",
+        "days_until": 44,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "has_terrain": false
+      },
+      {
+        "name": "przehyba",
+        "date": "2026-05-23",
+        "category": "RACE_A",
+        "type": "Ride",
+        "days_until": 51,
+        "moving_time_seconds": null,
+        "distance_meters": null,
+        "has_terrain": false
+      }
+    ],
     "taper_alert": {
       "active": false
     },
