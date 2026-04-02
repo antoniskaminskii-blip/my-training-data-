@@ -1,7 +1,7 @@
 # Athlete Dossier
 
 ## Identity
-- **Name:** [Your name]
+- **Name:** Antoni Kaminski
 - **Sport(s):** Cycling, Weightlifting
 
 ## Physiology
