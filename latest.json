@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-03T18:02:58.671092",
+    "last_updated": "2026-04-03T19:58:06.542549",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -104,7 +104,7 @@
       },
       "sleep": {
         "status": "green",
-        "hours": 9.17,
+        "hours": 9.37,
         "quality": null
       },
       "acwr": {
@@ -212,8 +212,8 @@
       "resting_hr": 43,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": 9.17,
-      "sleep_formatted": "9h10m",
+      "sleep_hours": 9.37,
+      "sleep_formatted": "9h22m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -231,7 +231,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 4254,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -569,8 +569,8 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 6.61,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 6.41,
+          "hard_sessions_planned": 0,
           "race_proximity": 43,
           "next_week_load": 8.11,
           "plan_coverage_current_week": 0.6,
@@ -607,7 +607,7 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-03T18:02:58.669846",
+    "calculation_timestamp": "2026-04-03T19:58:06.541293",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1805,8 +1805,8 @@
       "resting_hr": 43,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": 9.17,
-      "sleep_formatted": "9h10m",
+      "sleep_hours": 9.37,
+      "sleep_formatted": "9h22m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -1828,7 +1828,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 4254,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1872,12 +1872,12 @@
       "name": "a",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 163,
-      "duration_hours": 2.6,
-      "duration_formatted": "2h36m",
-      "workout_summary": "30m | 8\u00d74m / 8m rec | 30m",
+      "planned_tss": 154,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "-30m z2\n\n8x\n-4m z4 50rpm\n-8m z2 90 rpm\n\n-30m z2"
+      "description": "-3h z2"
     },
     {
       "id": 102185206,
@@ -2315,11 +2315,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 35,
-    "success": 12,
-    "patternA": 12,
+    "success": 11,
+    "patternA": 11,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 23
+    "bail_no_match": 24
   },
   "weekly_summary": {
     "total_training_hours": 5.4,
