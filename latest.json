@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-04T07:56:21.584950",
+    "last_updated": "2026-04-04T09:58:11.786144",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -540,15 +540,13 @@
         }
       }
     },
-    "consistency_index": 0.4,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 3,
       "completed_days": 2,
-      "matched_days": 2,
+      "matched_days": 1,
       "planned_dates": [
         "2026-03-29",
-        "2026-03-31",
-        "2026-04-02",
         "2026-04-03",
         "2026-04-04"
       ],
@@ -569,11 +567,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 16.24,
+          "planned_tss_delta": 11.01,
           "hard_sessions_planned": 0,
-          "race_proximity": 49,
-          "next_week_load": 5.19,
-          "plan_coverage_current_week": 0.6,
+          "race_proximity": 42,
+          "next_week_load": 7.88,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
@@ -607,13 +605,13 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-04T07:56:21.583771",
+    "calculation_timestamp": "2026-04-04T09:58:11.784914",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
       "activities_7d": 4,
       "activities_28d": 25,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 3,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 2
@@ -1806,19 +1804,6 @@
   ],
   "planned_workouts": [
     {
-      "id": 100219176,
-      "date": "2026-04-04",
-      "name": "a",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 154,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "-3h z2"
-    },
-    {
       "id": 102400095,
       "date": "2026-04-04",
       "name": "Saturday Endurance Progression by LeCoach App",
@@ -1847,54 +1832,54 @@
     {
       "id": 102400097,
       "date": "2026-04-06",
-      "name": "Monday Endurance by LeCoach App",
+      "name": "Monday Long Endurance by LeCoach App",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 49,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 152,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-5m ramp 50-65% FTP\n-50m 72% FTP\n-5m 55% FTP"
+      "description": "-5m ramp 50-65% FTP\n-170m 72% FTP\n-5m 55% FTP"
     },
     {
       "id": 102400098,
       "date": "2026-04-07",
-      "name": "Tuesday Endurance by LeCoach App",
+      "name": "Tuesday Long Endurance by LeCoach App",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 51,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 160,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-5m ramp 50-65% FTP\n-50m 74% FTP\n-5m 55% FTP"
+      "description": "-5m ramp 50-65% FTP\n-170m 74% FTP\n-5m 55% FTP"
     },
     {
       "id": 102400100,
       "date": "2026-04-08",
-      "name": "2 sets 10x30s 125% FTP by LeCoach App",
+      "name": "Strength Threshold - 4x10m 65RPM by LeCoach App",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 49,
-      "duration_hours": 0.72,
-      "duration_formatted": "43m",
-      "workout_summary": "5m @162W | 3\u00d730s @282W / 30s rec | 5m @169W | 10\u00d730s @352W / 30s rec | 5m @169W | 10\u00d730s @352W / 30s rec | 5m @141W",
+      "planned_tss": 126,
+      "duration_hours": 1.8,
+      "duration_formatted": "1h48m",
+      "workout_summary": "5m @162W | 3\u00d730s @282W / 30s rec | 5m @169W | 4\u00d710m @282W / 5m rec | 35m @197W",
       "has_terrain": false,
-      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n10x\n-30s 125% FTP\n-30s 50% FTP\n\n-5m 60% FTP\n\n10x\n-30s 125% FTP\n-30s 50% FTP\n\n-5m 50% FTP"
+      "description": "-5m ramp 50-65% FTP\n\n3x\n-30s 100% FTP\n-30s 55% FTP\n\n-5m 60% FTP\n\n4x\n-10m 100% FTP 65RPM\n-5m 60% FTP\n\n-35m 70% FTP"
     },
     {
-      "id": 102400130,
-      "date": "2026-04-10",
-      "name": "Friday Tempo Mix by LeCoach App",
+      "id": 102405955,
+      "date": "2026-04-09",
+      "name": "Thursday Endurance by LeCoach App",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 150,
+      "planned_tss": 96,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "-5m ramp 50-65% FTP\n-110m 88% FTP\n-5m 55% FTP"
+      "description": "-5m ramp 50-65% FTP\n-110m 70% FTP\n-5m 55% FTP"
     },
     {
       "id": 102400101,
@@ -1915,12 +1900,12 @@
       "name": "Sunday Endurance Long by LeCoach App",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 62,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
+      "planned_tss": 104,
+      "duration_hours": 2.07,
+      "duration_formatted": "2h4m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-5m ramp 50-65% FTP\n-65m 72% FTP\n-5m 55% FTP"
+      "description_preview": "-5m ramp 50-65% FTP\n-114m 72% FTP\n-5m 55% FTP"
     },
     {
       "id": 102400135,
@@ -2068,12 +2053,12 @@
       "name": "Sunday Endurance Light by LeCoach App",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 71,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
+      "planned_tss": 120,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "-5m ramp 50-65% FTP\n-80m 70% FTP\n-5m 55% FTP"
+      "description_preview": "-5m ramp 50-65% FTP\n-140m 70% FTP\n-5m 55% FTP"
     },
     {
       "id": 102400103,
@@ -2256,48 +2241,48 @@
     {
       "id": 102400118,
       "date": "2026-05-13",
-      "name": "6x2m VO2max Openers by LeCoach App",
+      "name": "Climb Simulations - 3x8m by LeCoach App",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 51,
-      "duration_hours": 0.78,
-      "duration_formatted": "47m",
-      "workout_summary": "5m @162W | 3\u00d730s @282W / 30s rec | 5m @169W | 6\u00d72m @304W / 2m rec | 10m @155W",
+      "planned_tss": 126,
+      "duration_hours": 2.05,
+      "duration_formatted": "2h3m",
+      "workout_summary": "5m @162W | 3\u00d730s @282W / 30s rec | 5m @169W | 3\u00d78m @287W / 5m rec | 1h11m @197W",
       "has_terrain": false
     },
     {
       "id": 102400111,
       "date": "2026-05-15",
-      "name": "Friday Tempo Sharpener by LeCoach App",
+      "name": "Friday Race Openers by LeCoach App",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 139,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "-5m ramp 50-65% FTP\n-110m 85% FTP\n-5m 55% FTP"
+      "planned_tss": 42,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": "5m @162W | 3\u00d730s @282W / 30s rec | 5m @169W | 2\u00d71m @310W / 2m rec | 41m @169W",
+      "has_terrain": false
     },
     {
-      "id": 102400127,
+      "id": 102191885,
       "date": "2026-05-16",
-      "name": "Saturday Threshold Intervals by LeCoach App",
-      "type": "WORKOUT",
+      "name": "przehyba",
+      "type": "RACE_A",
       "sport_type": "Ride",
-      "planned_tss": 169,
-      "duration_hours": 2.88,
-      "duration_formatted": "2h53m",
-      "workout_summary": "5m @162W | 3\u00d730s @282W / 30s rec | 5m @169W | 3\u00d715m @270W / 5m rec | 1h40m @183W",
-      "has_terrain": false
+      "planned_tss": 100,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
-    "attempted": 38,
+    "attempted": 36,
     "success": 11,
     "patternA": 11,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 27
+    "bail_no_match": 25
   },
   "weekly_summary": {
     "total_training_hours": 5.4,
@@ -2309,28 +2294,28 @@
   },
   "race_calendar": {
     "next_race": {
-      "name": "arlamow",
-      "date": "2026-05-23",
-      "category": "RACE_B",
+      "name": "przehyba",
+      "date": "2026-05-16",
+      "category": "RACE_A",
       "type": "Ride",
-      "days_until": 49,
+      "days_until": 42,
       "moving_time_seconds": null,
       "distance_meters": null,
       "has_terrain": false
     },
     "all_races": [
       {
-        "name": "arlamow",
-        "date": "2026-05-23",
-        "category": "RACE_B",
+        "name": "przehyba",
+        "date": "2026-05-16",
+        "category": "RACE_A",
         "type": "Ride",
-        "days_until": 49,
+        "days_until": 42,
         "moving_time_seconds": null,
         "distance_meters": null,
         "has_terrain": false
       },
       {
-        "name": "arlamow lang  by LeCoach App",
+        "name": "arlamow lang by LeCoach App",
         "date": "2026-05-23",
         "category": "RACE_A",
         "type": "Ride",
@@ -2340,13 +2325,13 @@
         "has_terrain": false
       },
       {
-        "name": "przehyba",
-        "date": "2026-05-30",
+        "name": "klasyk beskidzki by LeCoach App",
+        "date": "2026-06-27",
         "category": "RACE_A",
         "type": "Ride",
-        "days_until": 56,
+        "days_until": 84,
         "moving_time_seconds": null,
-        "distance_meters": null,
+        "distance_meters": 50000.0,
         "has_terrain": false
       }
     ],
