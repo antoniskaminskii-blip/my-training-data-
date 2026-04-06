@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-06T14:16:20.525087",
+    "last_updated": "2026-04-06T17:13:03.544977",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -562,12 +562,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 4.33,
-          "hard_sessions_planned": 5,
+          "planned_tss_delta": 5.64,
+          "hard_sessions_planned": 7,
           "race_proximity": 40,
-          "next_week_load": null,
-          "plan_coverage_current_week": 1.2,
-          "plan_coverage_next_week": 0.0
+          "next_week_load": 0.31,
+          "plan_coverage_current_week": 1.6,
+          "plan_coverage_next_week": 0.2
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -600,7 +600,7 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-06T14:16:20.523843",
+    "calculation_timestamp": "2026-04-06T17:13:03.543762",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1808,6 +1808,20 @@
       "description": "Warmup\n- Hello antonikaminski! Let's conquer this endurance ride. 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 24m 65% 85rpm\n- Build 24m 67% 88rpm\n- Upper Z2 24m 70-74% 90rpm\n- Cruise 23m 74-70% 88rpm\n\nCooldown\n- Fantastic work, antonikaminski! Recover well now. 10m ramp 65-45% 85rpm"
     },
     {
+      "id": 102816935,
+      "date": "2026-04-08",
+      "name": "IntervalCoach - Threshold Repeats",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 146,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": "15m @164W | 12m @192W | 3\u00d720m @268W / 5m rec | 10m @150W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey antonikaminski! Threshold awaits 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 12m 65-75% 85rpm\n- Threshold 1 20m 95-100% 92rpm\n- Recovery 5m 55% 80rpm\n- Threshold 2 20m 95-100% 92rpm\n- Recovery 5m 55% 80rpm\n- Threshold 3 20m 95-100% 92rpm\n- Endurance 13m 65-75% 85rpm\n\nCooldown\n- Awesome work, enjoy the spin 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
+    },
+    {
       "id": 102806127,
       "date": "2026-04-09",
       "name": "Cyclist Strength",
@@ -1820,6 +1834,20 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Cyclist Strength\n\nLeg power and core stability for cycling performance\n\n1. Squat: 5 sets \u00d7 8-10 reps (Heavy if available, focus on power) [Rest: 90 sec]\n2. Leg Press (or Wall Sit): 5 sets \u00d7 12 reps (or 3 x 45s) [Rest: 60 sec]\n3. Romanian Deadlift: 5 sets \u00d7 10 reps (Focus on hamstrings) [Rest: 60 sec]\n4. Single Leg Press or Lunge: 5 sets \u00d7 10 reps each leg (Address imbalances) [Rest: 45 sec]\n5. Plank: 5 sets \u00d7 60 sec [Rest: 30 sec]\n6. Back Extension: 5 sets \u00d7 12 reps (For aero position endurance) [Rest: 30 sec]\n\n[Duration: ~60 min]"
+    },
+    {
+      "id": 102816960,
+      "date": "2026-04-09",
+      "name": "IntervalCoach - Endurance with Pickups",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey antonikaminski! Endurance with pickups today. 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper Z2 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- Fantastic work, antonikaminski. Recover well. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
     },
     {
       "id": 102802987,
@@ -1864,6 +1892,20 @@
       "description": "Warmup\n- Hey antonikaminski! Big threshold day ahead 15m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Endurance 8m 65-75% 85rpm\n- Z2 Pickup 30s 86-94% 95rpm\n\nRecovery\n- Endurance 7m 65-75% 85rpm\n- Threshold 1 12m 95-102% 90rpm\n- Recovery 4m 55% 80rpm\n- Threshold 2 10m 96-103% 91rpm\n- Recovery 4m 55% 80rpm\n- Threshold 3 8m 97-104% 93rpm\n- Recovery 4m 55% 80rpm\n- Threshold 4 7m 97-104% 94rpm\n- Recovery 4m 55% 80rpm\n- Threshold 5 7m 98-105% 95rpm\n\n5x\n- Endurance 8m 65-75% 85rpm\n- Z2 Pickup 30s 86-94% 95rpm\n\nRecovery\n- Endurance 8m 65-75% 85rpm\n\nCooldown\n- Fantastic work, recover well 10m ramp 65-45% 85rpm"
     },
     {
+      "id": 102816975,
+      "date": "2026-04-13",
+      "name": "IntervalCoach - Aerobic Endurance",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey antonikaminski! Progressive aerobic ride ahead. 9m ramp 45-75% 85rpm\n\nMain Set\n- Z2 Low 15m 65% 85rpm\n- Z2 Mid 15m 69% 88rpm\n- Z2 Upper 15m 73% 90rpm\n\nCooldown\n- Fantastic work, antonikaminski! Spin easy. 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
+    },
+    {
       "id": 102191885,
       "date": "2026-05-16",
       "name": "przehyba",
@@ -1878,12 +1920,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
-    "success": 2,
+    "attempted": 8,
+    "success": 3,
     "patternA": 1,
-    "patternB": 1,
+    "patternB": 2,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 3
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 8.34,
