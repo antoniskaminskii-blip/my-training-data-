@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-08T18:57:28.407067",
+    "last_updated": "2026-04-08T21:30:54.918880",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -228,7 +228,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 7590,
+      "steps": 9907,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -570,12 +570,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.21,
+          "planned_tss_delta": 2.15,
           "hard_sessions_planned": 1,
           "race_proximity": 38,
           "next_week_load": 1.84,
           "plan_coverage_current_week": 1.0,
-          "plan_coverage_next_week": 1.4
+          "plan_coverage_next_week": 1.6
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -608,7 +608,7 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-08T18:57:27.981368",
+    "calculation_timestamp": "2026-04-08T21:30:54.917559",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1943,7 +1943,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 7590,
+      "steps": 9907,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1974,12 +1974,12 @@
       "name": "Aerobic Endurance Ride (2h)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 91,
+      "planned_tss": 83,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 10m 55% Warmup\n- 100m 70% Steady Ztwo\n- 10m 50% Cooldown\n\nSteady endurance."
+      "description": "- 10m 55% Warmup\n- 100m 70% Steady Z2\n- 10m 50% Cooldown\n\nSteady endurance."
     },
     {
       "id": 102985541,
@@ -1987,12 +1987,12 @@
       "name": "Aerobic Endurance Ride (2h)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 91,
+      "planned_tss": 83,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 10m 55% Warmup\n- 100m 70% Steady Ztwo\n- 10m 50% Cooldown\n\nSteady endurance."
+      "description": "- 10m 55% Warmup\n- 100m 70% Steady Z2\n- 10m 50% Cooldown\n\nSteady endurance."
     },
     {
       "id": 102985542,
@@ -2032,6 +2032,19 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "- 60m 48% Recovery\n\nVery easy recovery spin."
+    },
+    {
+      "id": 103265077,
+      "date": "2026-04-13",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
     },
     {
       "id": 102985544,
@@ -2109,6 +2122,58 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "- 15m 55% Warmup\n- 150m 70% Steady Z2\n- 15m 50% Cooldown"
+    },
+    {
+      "id": 103265102,
+      "date": "2026-04-20",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 103265270,
+      "date": "2026-04-27",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 103265287,
+      "date": "2026-05-04",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 103265372,
+      "date": "2026-05-11",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     },
     {
       "id": 102191885,
