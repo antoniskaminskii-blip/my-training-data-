@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-08T10:17:31.058068",
+    "last_updated": "2026-04-08T14:58:27.586702",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -198,7 +198,7 @@
       "sleep_formatted": "6h42m",
       "sleep_score": null,
       "fatigue": 2,
-      "soreness": 2,
+      "soreness": 3,
       "stress": 2,
       "mood": 3,
       "motivation": 2,
@@ -213,7 +213,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3495,
+      "steps": 7590,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -554,7 +554,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.41,
+          "planned_tss_delta": 2.38,
           "hard_sessions_planned": 1,
           "race_proximity": 38,
           "next_week_load": 1.98,
@@ -592,7 +592,7 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-08T10:17:31.056671",
+    "calculation_timestamp": "2026-04-08T14:58:27.585300",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1859,7 +1859,7 @@
       "avg_sleeping_hr": null,
       "vo2max": null,
       "fatigue": 2,
-      "soreness": 2,
+      "soreness": 3,
       "stress": 2,
       "mood": 3,
       "motivation": 2,
@@ -1874,7 +1874,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3495,
+      "steps": 7590,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1892,12 +1892,12 @@
       "name": "Aerobic Endurance Ride (2h)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 91,
+      "planned_tss": 83,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 10m 55% Warmup\n- 100m 70% Steady Ztwo\n- 10m 50% Cooldown\n\nSteady endurance to build the aerobic base."
+      "description": "- 10m 55% Warmup\n- 100m 70% Steady Z2\n- 10m 50% Cooldown\n\nSteady endurance to build the aerobic base."
     },
     {
       "id": 102985540,
