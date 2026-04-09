@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-09T16:06:47.431370",
+    "last_updated": "2026-04-09T20:05:35.543102",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -130,7 +130,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-02",
-    "age_days": 6,
+    "age_days": 7,
     "total_months": 25,
     "history_confidence": "high"
   },
@@ -556,7 +556,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.6,
+          "planned_tss_delta": 1.51,
           "hard_sessions_planned": 1,
           "race_proximity": 37,
           "next_week_load": 1.46,
@@ -594,7 +594,7 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-09T16:06:46.967501",
+    "calculation_timestamp": "2026-04-09T20:05:35.541764",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1984,12 +1984,12 @@
       "name": "Hard Race Simulation: Threshold + VO2 (Sat)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 221,
+      "planned_tss": 198,
       "duration_hours": 3.37,
       "duration_formatted": "3h22m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 20m 55% Warmup\n\n4x\n - 10m 102% Threshold Block (10min)\n - 3m 120% Finish Kick (3min)\n - 5m 50% Recovery\n\n- 100m 65% Endurance Finish\n- 10m 50% Cooldown\n\nCombining sustained threshold work with punchy efforts. 3h total."
+      "description": "- 20m 55% Warmup\n\n4x\n - 10m 95% Threshold Block (10min)\n - 3m 110% Finish Kick (3min)\n - 5m 50% Recovery\n\n- 100m 65% Endurance Finish\n- 10m 50% Cooldown\n\nCombining sustained threshold work with punchy efforts. 3h total."
     },
     {
       "id": 103265077,
