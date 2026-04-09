@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T10:40:38.509882",
+  "generated_at": "2026-04-09T16:06:46.968626",
   "version": "3.95",
   "script_hash": "97bf788ee1c8",
   "scan_hours": 72,
@@ -557,6 +557,60 @@
           "zone": 1,
           "training_load": 0.014398531,
           "decoupling": 9.929078
+        }
+      ]
+    },
+    {
+      "activity_id": "i138432547",
+      "date": "2026-04-09",
+      "type": "Ride",
+      "name": "Aerobic Endurance Ride (2h)",
+      "interval_summary": [
+        "1x 95s 114w",
+        "1x 8m26s 167w",
+        "1x 1h41m 179w",
+        "1x 10m9s 151w"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "95s@114w75rpm",
+          "duration_secs": 95,
+          "avg_power": 114,
+          "max_power": 149,
+          "avg_cadence": 75.02105,
+          "zone": 1,
+          "training_load": 0.42222223
+        },
+        {
+          "type": "WORK",
+          "label": "506s@167w80rpm",
+          "duration_secs": 506,
+          "avg_power": 167,
+          "max_power": 189,
+          "avg_cadence": 79.5336,
+          "zone": 2,
+          "training_load": 5.2456727
+        },
+        {
+          "type": "WORK",
+          "label": "6104s@179w82rpm",
+          "duration_secs": 6104,
+          "avg_power": 179,
+          "max_power": 227,
+          "avg_cadence": 81.74683,
+          "zone": 2,
+          "training_load": 72.0595
+        },
+        {
+          "type": "WORK",
+          "label": "609s@151w81rpm",
+          "duration_secs": 609,
+          "avg_power": 151,
+          "max_power": 199,
+          "avg_cadence": 80.81713,
+          "zone": 1,
+          "training_load": 5.3050666
         }
       ]
     }
