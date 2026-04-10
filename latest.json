@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-10T06:22:15.160061",
+    "last_updated": "2026-04-10T10:17:34.597968",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -94,7 +94,7 @@
       },
       "sleep": {
         "status": "green",
-        "hours": 7.08,
+        "hours": 7.12,
         "quality": 2
       },
       "acwr": {
@@ -194,8 +194,8 @@
       "resting_hr": 44,
       "hrv": null,
       "sleep_quality": 2,
-      "sleep_hours": 7.08,
-      "sleep_formatted": "7h5m",
+      "sleep_hours": 7.12,
+      "sleep_formatted": "7h7m",
       "sleep_score": null,
       "fatigue": 2,
       "soreness": 1,
@@ -213,7 +213,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 169,
+      "steps": 2447,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -555,11 +555,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.6,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 1.61,
+          "hard_sessions_planned": 2,
           "race_proximity": 36,
           "next_week_load": 1.62,
-          "plan_coverage_current_week": 0.6,
+          "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.2
         },
         "data_quality": "good",
@@ -593,7 +593,7 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-10T06:22:15.158690",
+    "calculation_timestamp": "2026-04-10T10:17:34.596677",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1916,8 +1916,8 @@
       "resting_hr": 44,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": 7.08,
-      "sleep_formatted": "7h5m",
+      "sleep_hours": 7.12,
+      "sleep_formatted": "7h7m",
       "sleep_quality": 2,
       "sleep_score": null,
       "mental_energy": null,
@@ -1939,7 +1939,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 169,
+      "steps": 2447,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1957,27 +1957,13 @@
       "name": "IntervalCoach - Aerobic Endurance",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 69,
-      "duration_hours": 1.53,
-      "duration_formatted": "1h32m",
+      "planned_tss": 93,
+      "duration_hours": 2.03,
+      "duration_formatted": "2h2m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Progressive aerobic session awaits 14m ramp 45-75% 85rpm\n\nMain Set\n- Z2 Low 23m 65% 85rpm\n- Z2 Mid 23m 69% 88rpm\n- Z2 Upper 23m 73% 90rpm\n\nCooldown\n- Fantastic work, antonikaminski! Spin easy now 9m ramp 65-45% 85rpm"
-    },
-    {
-      "id": 103476169,
-      "date": "2026-04-11",
-      "name": "IntervalCoach - Endurance Spin-Ups",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 23,
-      "duration_hours": 0.5,
-      "duration_formatted": "30m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Endurance + Spin-Ups today. 5m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 22m 65-75% 85rpm\n\nCooldown\n- Excellent work, antonikaminski! Spin easy now. 3m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
+      "description": "Warmup\n- Hey antonikaminski! Progressive aerobic session awaits 14m ramp 45-75% 85rpm\n\nMain Set\n- Z2 Low 33m 65% 85rpm\n- Z2 Mid 33m 69% 88rpm\n- Z2 Upper 33m 73% 90rpm\n\nCooldown\n- Fantastic work, antonikaminski! Spin easy now 9m ramp 65-45% 85rpm"
     },
     {
       "id": 102985542,
@@ -2406,12 +2392,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 29,
+    "attempted": 28,
     "success": 8,
     "patternA": 8,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 21
+    "bail_no_match": 20
   },
   "weekly_summary": {
     "total_training_hours": 10.36,
