@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-10T17:36:52.437057",
+    "last_updated": "2026-04-10T19:57:13.419029",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -130,7 +130,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-02",
-    "age_days": 7,
+    "age_days": 8,
     "total_months": 25,
     "history_confidence": "high"
   },
@@ -556,7 +556,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.52,
+          "planned_tss_delta": 1.44,
           "hard_sessions_planned": 2,
           "race_proximity": 36,
           "next_week_load": 1.53,
@@ -594,7 +594,7 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-10T17:36:52.435722",
+    "calculation_timestamp": "2026-04-10T19:57:13.417664",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -638,8 +638,8 @@
       "efficiency_factor": null,
       "hrrc": null,
       "elevation_m": 230.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 3,
+      "rpe": 4,
       "zone_distribution": {
         "power_zones": {
           "z1_time": 2759,
@@ -2004,13 +2004,13 @@
       "name": "IntervalCoach - Aerobic Endurance",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 93,
-      "duration_hours": 2.03,
-      "duration_formatted": "2h2m",
+      "planned_tss": 78,
+      "duration_hours": 1.93,
+      "duration_formatted": "1h56m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Progressive aerobic session awaits 14m ramp 45-75% 85rpm\n\nMain Set\n- Z2 Low 33m 65% 85rpm\n- Z2 Mid 33m 69% 88rpm\n- Z2 Upper 33m 73% 90rpm\n\nCooldown\n- Fantastic work, antonikaminski! Spin easy now 9m ramp 65-45% 85rpm"
+      "description": "Warmup\n- Hey antonikaminski! Progressive aerobic session awaits 14m ramp 45-75% 85rpm\n\nMain Set\n- Z2 Low 1h33m 65% 85rpm\n\nCooldown\n- Fantastic work, antonikaminski! Spin easy now 9m ramp 65-45% 85rpm"
     },
     {
       "id": 102985542,
