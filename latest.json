@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 9.44,
-      "total_training_formatted": "9h26m",
-      "total_activities": 5,
-      "total_tss": 455
+      "total_training_hours": 12.44,
+      "total_training_formatted": "12h26m",
+      "total_activities": 6,
+      "total_tss": 505
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-11T14:07:25.453412",
+    "last_updated": "2026-04-11T15:50:30.267566",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -95,24 +95,24 @@
       "sleep": {
         "status": "green",
         "hours": 8.45,
-        "quality": null
+        "quality": 2
       },
       "acwr": {
         "status": "green",
-        "value": 0.85
+        "value": 0.92
       },
       "ri": {
         "status": "unavailable",
         "value": null
       },
       "tsb": {
-        "status": "green",
-        "value": -15.6
+        "status": "amber",
+        "value": -22.3
       }
     },
     "signal_summary": {
-      "green": 4,
-      "amber": 0,
+      "green": 3,
+      "amber": 1,
       "red": 0,
       "unavailable": 2
     },
@@ -124,7 +124,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 4 green, 0 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 3 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -137,22 +137,28 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 9.44,
-    "total_activities": 5,
+    "total_duration_decimal_hours": 12.44,
+    "total_activities": 6,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 9.44,
         "count": 5,
         "tss": 455,
         "distance_km": 266.2
+      },
+      "WeightTraining": {
+        "duration_decimal_hours": 3.0,
+        "count": 1,
+        "tss": 50,
+        "distance_km": 0.0
       }
     }
   },
   "current_status": {
     "fitness": {
       "ctl": 55.85,
-      "atl": 71.47,
-      "tsb": -15.62,
+      "atl": 78.12,
+      "tsb": -22.27,
       "ramp_rate": 1.61,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
@@ -193,17 +199,17 @@
       "weight_kg": 63.0,
       "resting_hr": 48,
       "hrv": null,
-      "sleep_quality": null,
+      "sleep_quality": 2,
       "sleep_hours": 8.45,
       "sleep_formatted": "8h27m",
       "sleep_score": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 2,
+      "soreness": 1,
+      "stress": 1,
+      "mood": 4,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -232,20 +238,20 @@
     "rhr_baseline_28d": 45.7,
     "latest_hrv": null,
     "latest_rhr": 48,
-    "acwr": 0.85,
+    "acwr": 0.92,
     "acwr_interpretation": "optimal",
-    "monotony": 1.38,
-    "monotony_interpretation": "normal",
+    "monotony": 1.86,
+    "monotony_interpretation": "normal (primary sport 1.38, total 1.86 inflated by multi-sport)",
     "primary_sport": "cycling",
     "primary_sport_monotony": 1.38,
     "primary_sport_tss_7d": 455.0,
     "effective_monotony": 1.38,
-    "multi_sport_detected": false,
-    "strain": 628.0,
-    "stress_tolerance": 4.6,
+    "multi_sport_detected": true,
+    "strain": 939.0,
+    "stress_tolerance": 5.0,
     "load_recovery_ratio": null,
-    "tss_7d_total": 455.0,
-    "tss_28d_total": 2136.0,
+    "tss_7d_total": 505.0,
+    "tss_28d_total": 2186.0,
     "zone_distribution_7d": {
       "z1_hours": 2.15,
       "z2_hours": 5.47,
@@ -522,9 +528,9 @@
         }
       }
     },
-    "consistency_index": 1.0,
+    "consistency_index": 0.83,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 6,
       "completed_days": 5,
       "matched_days": 5,
       "planned_dates": [
@@ -532,7 +538,8 @@
         "2026-04-07",
         "2026-04-08",
         "2026-04-09",
-        "2026-04-10"
+        "2026-04-10",
+        "2026-04-11"
       ],
       "completed_dates": [
         "2026-04-06",
@@ -554,12 +561,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.55,
+          "planned_tss_delta": 1.28,
           "hard_sessions_planned": 1,
           "race_proximity": 35,
-          "next_week_load": 1.53,
-          "plan_coverage_current_week": 0.2,
-          "plan_coverage_next_week": 1.2
+          "next_week_load": 1.19,
+          "plan_coverage_current_week": 0.4,
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -592,13 +599,13 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-11T14:07:25.452125",
+    "calculation_timestamp": "2026-04-11T15:50:30.266296",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
-      "activities_7d": 5,
-      "activities_28d": 25,
-      "planned_workouts_7d": 6,
+      "activities_7d": 6,
+      "activities_28d": 26,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 9,
         "outdoor": 9
@@ -606,6 +613,42 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i138929633",
+      "date": "2026-04-11T00:00:00",
+      "type": "WeightTraining",
+      "name": "a",
+      "duration_hours": 3.0,
+      "distance_km": 0.0,
+      "tss": 50,
+      "intensity_factor": 40.82483,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": null,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": null,
+      "has_intervals": false,
+      "description": "\ud83d\udcca IntervalCoach Analysis\nWorkout score: 8/10\nTSS: 50\nTraining stimulus: recovery\nEst. recovery: 24h\n\n\ud83d\udd17 https://www.intervalcoach.app/?ref=REF-C2SZ2X"
+    },
     {
       "id": "i138723098",
       "date": "2026-04-10T16:20:46",
@@ -1920,18 +1963,18 @@
       "hrv_sdnn": null,
       "sleep_hours": 8.45,
       "sleep_formatted": "8h27m",
-      "sleep_quality": null,
+      "sleep_quality": 2,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 2,
+      "soreness": 1,
+      "stress": 1,
+      "mood": 4,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -1954,17 +1997,31 @@
   ],
   "planned_workouts": [
     {
-      "id": 102985542,
-      "date": "2026-04-12",
-      "name": "Hard Race Simulation: Threshold + VO2 (Sat)",
+      "id": 103697159,
+      "date": "2026-04-11",
+      "name": "a",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 198,
-      "duration_hours": 3.37,
-      "duration_formatted": "3h22m",
+      "sport_type": "WeightTraining",
+      "planned_tss": 50,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 20m 55% Warmup\n\n4x\n - 10m 95% Threshold Block (10min)\n - 3m 110% Finish Kick (3min)\n - 5m 50% Recovery\n\n- 100m 65% Endurance Finish\n- 10m 50% Cooldown\n\nCombining sustained threshold work with punchy efforts. 3h total."
+      "description": ""
+    },
+    {
+      "id": 103363584,
+      "date": "2026-04-12",
+      "name": "IntervalCoach - SS + Surges",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 163,
+      "duration_hours": 2.67,
+      "duration_formatted": "2h40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey antonikaminski! Sweet spot and surges are here 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 13m 65-75% 85rpm\n\n6x\n- SS Block 8m 88-94% 90rpm\n- Z5 Kick 1m 106% 100rpm\n- Recovery 3m 55% 85rpm\n\nRecovery\n- Endurance 50m 65-75% 85rpm\n\nCooldown\n- Fantastic work, enjoy the spin 10m ramp 65-45% 85rpm"
     },
     {
       "id": 103265077,
@@ -1980,70 +2037,60 @@
       "description": ""
     },
     {
-      "id": 103476171,
-      "date": "2026-04-13",
+      "id": 103708603,
+      "date": "2026-04-15",
       "name": "IntervalCoach - Sweet Spot Intervals",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 66,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Sweet spot awaits! 9m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 3m 65-75% 85rpm\n- Sweet Spot 1 12m 88-92% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 2 11m 89-93% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 3 10m 90-94% 90rpm\n- Endurance 3m 65-75% 85rpm\n\nCooldown\n- Awesome work, enjoy the recovery 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
-    },
-    {
-      "id": 102985545,
-      "date": "2026-04-15",
-      "name": "Climbing Progression: 8x8min (Wed)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 167,
-      "duration_hours": 2.1,
-      "duration_formatted": "2h6m",
-      "workout_summary": "15m @151W | 8\u00d78m @288W / 4m rec | 15m @137W",
-      "has_terrain": false,
-      "description": "- 15m 55% Warmup\n\n8x\n - 8m 105% Climbing Interval @ 105%\n - 4m 50% Recovery\n\n- 15m 50% Cooldown\n\nIncreasing volume of 8-min climbing repeats."
-    },
-    {
-      "id": 102985549,
-      "date": "2026-04-17",
-      "name": "Aerobic Endurance Ride (2h)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 83,
+      "planned_tss": 122,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- 10m 55% Warmup\n- 100m 70% Steady Z2\n- 10m 50% Cooldown\n\nSteady endurance ride."
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey antonikaminski! Sweet spot awaits! 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 16m 65-75% 85rpm\n- Sweet Spot 1 12m 88-92% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 2 11m 89% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 3 10m 89-93% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 4 9m 90% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 5 8m 90-94% 90rpm\n- Endurance 17m 65-75% 85rpm\n\nCooldown\n- Fantastic ride, antonikaminski. Recover well! 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
     },
     {
-      "id": 102985552,
-      "date": "2026-04-18",
-      "name": "Hard Race Simulation: Sustained Climbing (Sat)",
+      "id": 103708594,
+      "date": "2026-04-17",
+      "name": "IntervalCoach - Endurance Build",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 243,
-      "duration_hours": 3.08,
-      "duration_formatted": "3h5m",
-      "workout_summary": "30m @178W | 3\u00d720m @288W / 5m rec | 5\u00d71m @357W / 1m rec | 1h @220W | 10m @137W",
+      "planned_tss": 91,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "- 30m 65% Warmup (30min) @ 65%\n\n3x\n - 20m 105% Sustained Climb (20min) @ 105% FTP\n - 5m 50% Recovery\n\n\n5x\n - 1m 130% Explosive Finish (1min) @ 130%\n - 1m 50% Recovery\n\n- 60m 80% Sweet Spot Finish (60min) @ 80%\n- 10m 50% Cooldown\n\nHigh-intensity climbing simulation. Focusing on threshold repeats and a strong sweet-spot finish. 3h total."
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey antonikaminski! Endurance with pickups coming up. 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 24m 65% 85rpm\n- Build 24m 67% 88rpm\n- Upper Z2 24m 70-74% 90rpm\n- Cruise 23m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, antonikaminski! Enjoy the spin down. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
     },
     {
-      "id": 102985550,
-      "date": "2026-04-19",
-      "name": "Long Endurance Ride (3h)",
+      "id": 103708592,
+      "date": "2026-04-18",
+      "name": "IntervalCoach - Threshold Repeats",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 124,
+      "planned_tss": 180,
       "duration_hours": 3.0,
       "duration_formatted": "3h",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "- 15m 55% Warmup\n- 150m 70% Steady Z2\n- 15m 50% Cooldown"
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey antonikaminski! Threshold awaits, let's go! 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 12m 65-75% 85rpm\n- Threshold 1 20m 95-100% 92rpm\n- Recovery 5m 55% 80rpm\n- Threshold 2 20m 95-100% 92rpm\n- Recovery 5m 55% 80rpm\n\n- Endurance 93m 65-75% 85rpm\n\nCooldown\n- Fantastic work, antonikaminski. Spin easy now. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
+    },
+    {
+      "id": 103708614,
+      "date": "2026-04-19",
+      "name": "IntervalCoach - Endurance Build",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 137,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- Hey antonikaminski! Endurance with pickups coming up. 15m ramp 45-75% 85rpm\nMain Set"
     },
     {
       "id": 103265102,
@@ -2059,20 +2106,7 @@
       "description_preview": null
     },
     {
-      "id": 103362805,
-      "date": "2026-04-21",
-      "name": "Aerobic Endurance Ride (2h)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 39,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 10m 55% Warmup\n- 40m 70% Steady Z2\n- 10m 50% Cooldown"
-    },
-    {
-      "id": 103362782,
+      "id": 102985545,
       "date": "2026-04-22",
       "name": "Climbing Progression: 8x8min (Wed)",
       "type": "WORKOUT",
@@ -2084,20 +2118,7 @@
       "has_terrain": false
     },
     {
-      "id": 103362930,
-      "date": "2026-04-23",
-      "name": "Aerobic Endurance Ride (2h)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 39,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 10m 55% Warmup\n- 40m 70% Steady Z2\n- 10m 50% Cooldown"
-    },
-    {
-      "id": 103362783,
+      "id": 102985549,
       "date": "2026-04-24",
       "name": "Aerobic Endurance Ride (2h)",
       "type": "WORKOUT",
@@ -2110,19 +2131,19 @@
       "description_preview": "- 10m 55% Warmup\n- 100m 70% Steady Z2\n- 10m 50% Cooldown"
     },
     {
-      "id": 103362784,
+      "id": 102985552,
       "date": "2026-04-25",
       "name": "Hard Race Simulation: Sustained Climbing (Sat)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 243,
+      "planned_tss": 218,
       "duration_hours": 3.08,
       "duration_formatted": "3h5m",
-      "workout_summary": "30m @178W | 3\u00d720m @288W / 5m rec | 5\u00d71m @357W / 1m rec | 1h @220W | 10m @137W",
+      "workout_summary": "30m @178W | 3\u00d720m @261W / 5m rec | 5\u00d71m @357W / 1m rec | 1h @220W | 10m @137W",
       "has_terrain": false
     },
     {
-      "id": 103362785,
+      "id": 102985550,
       "date": "2026-04-26",
       "name": "Long Endurance Ride (3h)",
       "type": "WORKOUT",
@@ -2148,82 +2169,6 @@
       "description_preview": null
     },
     {
-      "id": 103362971,
-      "date": "2026-04-28",
-      "name": "Aerobic Endurance Ride (2h)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 39,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 10m 55% Warmup\n- 40m 70% Steady Z2\n- 10m 50% Cooldown"
-    },
-    {
-      "id": 103362972,
-      "date": "2026-04-29",
-      "name": "Climbing Progression: 8x8min (Wed)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 167,
-      "duration_hours": 2.1,
-      "duration_formatted": "2h6m",
-      "workout_summary": "15m @151W | 8\u00d78m @288W / 4m rec | 15m @137W",
-      "has_terrain": false
-    },
-    {
-      "id": 103362974,
-      "date": "2026-04-30",
-      "name": "Aerobic Endurance Ride (2h)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 39,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 10m 55% Warmup\n- 40m 70% Steady Z2\n- 10m 50% Cooldown"
-    },
-    {
-      "id": 103362975,
-      "date": "2026-05-01",
-      "name": "Aerobic Endurance Ride (2h)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 126,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 10m 55% Warmup\n- 160m 70% Steady Z2\n- 10m 50% Cooldown"
-    },
-    {
-      "id": 103362976,
-      "date": "2026-05-02",
-      "name": "Hard Race Simulation: Sustained Climbing (Sat)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 243,
-      "duration_hours": 3.08,
-      "duration_formatted": "3h5m",
-      "workout_summary": "30m @178W | 3\u00d720m @288W / 5m rec | 5\u00d71m @357W / 1m rec | 1h @220W | 10m @137W",
-      "has_terrain": false
-    },
-    {
-      "id": 103362977,
-      "date": "2026-05-03",
-      "name": "Long Endurance Ride (3h)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 124,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 15m 55% Warmup\n- 150m 70% Steady Z2\n- 15m 50% Cooldown"
-    },
-    {
       "id": 103265287,
       "date": "2026-05-04",
       "name": "Weekly",
@@ -2235,83 +2180,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
-    },
-    {
-      "id": 103363018,
-      "date": "2026-05-05",
-      "name": "Climbing Intervals: 6x8min (Wed)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 144,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": "15m @151W | 6\u00d78m @288W / 4m rec | 33m @137W",
-      "has_terrain": false
-    },
-    {
-      "id": 103363794,
-      "date": "2026-05-06",
-      "name": "Long Endurance Ride (3h)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 124,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 15m 55% Warmup\n- 150m 70% Steady Z2\n- 15m 50% Cooldown"
-    },
-    {
-      "id": 103363019,
-      "date": "2026-05-07",
-      "name": "Aerobic Endurance Ride (2h)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 83,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 10m 55% Warmup\n- 100m 70% Steady Z2\n- 10m 50% Cooldown"
-    },
-    {
-      "id": 103363793,
-      "date": "2026-05-08",
-      "name": "Long Endurance Ride (3h)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 124,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 15m 55% Warmup\n- 150m 70% Steady Z2\n- 15m 50% Cooldown"
-    },
-    {
-      "id": 103363026,
-      "date": "2026-05-09",
-      "name": "Long Endurance Ride (3h)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 124,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 15m 55% Warmup\n- 150m 70% Steady Z2\n- 15m 50% Cooldown"
-    },
-    {
-      "id": 103363022,
-      "date": "2026-05-10",
-      "name": "Hard Race Simulation: Threshold + VO2 (Sat)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 221,
-      "duration_hours": 3.37,
-      "duration_formatted": "3h22m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 20m 55% Warmup\n4x\n- 10m 102% Threshold Block (10min)"
     },
     {
       "id": 103265372,
@@ -2327,33 +2195,6 @@
       "description_preview": null
     },
     {
-      "id": 103363584,
-      "date": "2026-05-13",
-      "name": "IntervalCoach - SS + Surges",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 131,
-      "duration_hours": 2.05,
-      "duration_formatted": "2h3m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description_preview": "Warmup\n- Hey antonikaminski! Sweet spot and surges are here 15m ramp 45-75% 85rpm\nMain Set"
-    },
-    {
-      "id": 103363354,
-      "date": "2026-05-15",
-      "name": "IntervalCoach - Sprint Intervals",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 82,
-      "duration_hours": 1.75,
-      "duration_formatted": "1h45m",
-      "workout_summary": "15m @164W | 1h10m @192W | 3\u00d730s @291W / 2m rec | 15s @412W | 2m @151W | 15s @412W | 10m @150W",
-      "has_terrain": false,
-      "start_time": "09:00"
-    },
-    {
       "id": 102191885,
       "date": "2026-05-16",
       "name": "przehyba",
@@ -2365,19 +2206,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
-    },
-    {
-      "id": 103363385,
-      "date": "2026-05-17",
-      "name": "Long Endurance Ride (3h)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 124,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description_preview": "- 15m 55% Warmup\n- 150m 70% Steady Z2\n- 15m 50% Cooldown"
     },
     {
       "id": 102400110,
@@ -2394,18 +2222,18 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 27,
-    "success": 8,
-    "patternA": 8,
+    "attempted": 9,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 19
+    "bail_no_match": 7
   },
   "weekly_summary": {
-    "total_training_hours": 9.44,
-    "total_training_formatted": "9h26m",
-    "total_tss": 455,
-    "activities_count": 5,
+    "total_training_hours": 12.44,
+    "total_training_formatted": "12h26m",
+    "total_tss": 505,
+    "activities_count": 6,
     "avg_hrv": null,
     "avg_resting_hr": 46.7
   },
