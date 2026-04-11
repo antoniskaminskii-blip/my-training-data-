@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-11T15:50:30.267566",
+    "last_updated": "2026-04-11T17:51:44.225868",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -130,7 +130,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-02",
-    "age_days": 8,
+    "age_days": 9,
     "total_months": 25,
     "history_confidence": "high"
   },
@@ -528,9 +528,9 @@
         }
       }
     },
-    "consistency_index": 0.83,
+    "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 5,
       "matched_days": 5,
       "planned_dates": [
@@ -538,8 +538,7 @@
         "2026-04-07",
         "2026-04-08",
         "2026-04-09",
-        "2026-04-10",
-        "2026-04-11"
+        "2026-04-10"
       ],
       "completed_dates": [
         "2026-04-06",
@@ -565,7 +564,7 @@
           "hard_sessions_planned": 1,
           "race_proximity": 35,
           "next_week_load": 1.19,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
@@ -599,13 +598,13 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-11T15:50:30.266296",
+    "calculation_timestamp": "2026-04-11T17:51:44.224522",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 26,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 9,
         "outdoor": 9
@@ -1996,19 +1995,6 @@
     }
   ],
   "planned_workouts": [
-    {
-      "id": 103697159,
-      "date": "2026-04-11",
-      "name": "a",
-      "type": "WORKOUT",
-      "sport_type": "WeightTraining",
-      "planned_tss": 50,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": ""
-    },
     {
       "id": 103363584,
       "date": "2026-04-12",
