@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-12T06:12:33.600285",
+    "last_updated": "2026-04-12T09:07:36.530789",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -561,7 +561,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.18,
+          "planned_tss_delta": 2.74,
           "hard_sessions_planned": 1,
           "race_proximity": 34,
           "next_week_load": 1.19,
@@ -599,7 +599,7 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-12T06:12:33.598926",
+    "calculation_timestamp": "2026-04-12T09:07:36.529441",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1947,18 +1947,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 103785835,
+      "id": 103793429,
       "date": "2026-04-12",
-      "name": "IntervalCoach - Endurance Build",
+      "name": "IntervalCoach - Sweet Spot Intervals",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 139,
-      "duration_hours": 3.02,
-      "duration_formatted": "3h1m",
+      "planned_tss": 175,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Long endurance ride ahead. 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 39m 65% 85rpm\n- Build 39m 67% 88rpm\n- Upper Z2 39m 70-74% 90rpm\n- Cruise 39m 74-70% 88rpm\n\nCooldown\n- Fantastic work, enjoy the cool down. 10m ramp 65-45% 85rpm"
+      "description": "Warmup\n- Hey antonikaminski! Long endurance with surges today. 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 13m 65-75% 85rpm\n\n6x\n- SS Block 8m 88-94% 90rpm\n- Z5 Kick 1m 106% 100rpm\n- Recovery 3m 55% 85rpm\n\n-57m z2\nRecovery\n- Endurance 13m 65-75% 85rpm\n\nCooldown\n- Fantastic work, enjoy the cool down 10m ramp 65-45% 85rpm"
     },
     {
       "id": 103265077,
