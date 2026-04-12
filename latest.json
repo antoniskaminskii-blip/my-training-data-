@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-12T17:55:24.944974",
+    "last_updated": "2026-04-12T19:55:42.883504",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -539,14 +539,13 @@
     },
     "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 5,
       "completed_days": 6,
-      "matched_days": 6,
+      "matched_days": 5,
       "planned_dates": [
         "2026-04-06",
         "2026-04-07",
         "2026-04-08",
-        "2026-04-09",
         "2026-04-10",
         "2026-04-12"
       ],
@@ -609,13 +608,13 @@
     "p_max": 1009,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-12T17:55:24.943656",
+    "calculation_timestamp": "2026-04-12T19:55:42.882177",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 26,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 6,
       "ftp_history_days": {
         "indoor": 10,
         "outdoor": 10
@@ -2037,7 +2036,7 @@
       "description": ""
     },
     {
-      "id": 103708603,
+      "id": 103939200,
       "date": "2026-04-15",
       "name": "IntervalCoach - Sweet Spot Intervals",
       "type": "WORKOUT",
@@ -2047,50 +2046,46 @@
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
       "description": "Warmup\n- Hey antonikaminski! Sweet spot awaits! 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 16m 65-75% 85rpm\n- Sweet Spot 1 12m 88-92% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 2 11m 89% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 3 10m 89-93% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 4 9m 90% 90rpm\n- Recovery 3m 55% 85rpm\n- Sweet Spot 5 8m 90-94% 90rpm\n- Endurance 17m 65-75% 85rpm\n\nCooldown\n- Fantastic ride, antonikaminski. Recover well! 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
     },
     {
-      "id": 103708594,
+      "id": 103939238,
       "date": "2026-04-17",
-      "name": "IntervalCoach - Endurance Build",
+      "name": "Aerobic Endurance Ride (2h)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 91,
+      "planned_tss": 83,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Endurance with pickups coming up. 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 24m 65% 85rpm\n- Build 24m 67% 88rpm\n- Upper Z2 24m 70-74% 90rpm\n- Cruise 23m  74-70% 88rpm\n\nCooldown\n- Fantastic ride, antonikaminski! Enjoy the spin down. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
+      "description": "- 10m 55% Warmup\n- 100m 70% Steady Z2\n- 10m 50% Cooldown\n\nSteady endurance."
     },
     {
-      "id": 103708592,
+      "id": 103939287,
       "date": "2026-04-18",
-      "name": "IntervalCoach - Threshold Repeats",
+      "name": "Climbing Intervals: 6x8min (Wed)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 180,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
+      "planned_tss": 196,
+      "duration_hours": 3.03,
+      "duration_formatted": "3h2m",
+      "workout_summary": "15m @151W | 6\u00d78m @288W / 4m rec | 1h20m | 15m @137W",
       "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Threshold awaits, let's go! 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 12m 65-75% 85rpm\n- Threshold 1 20m 95-100% 92rpm\n- Recovery 5m 55% 80rpm\n- Threshold 2 20m 95-100% 92rpm\n- Recovery 5m 55% 80rpm\n\n- Endurance 93m 65-75% 85rpm\n\nCooldown\n- Fantastic work, antonikaminski. Spin easy now. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
+      "description": "- 15m 55% Warmup\n\n6x\n - 8m 105% Climb Repeat\n - 4m 50% Recovery\n\n\n-1h20m z2\n- 15m 50% Cooldown\n\nVO2max repeatability for race climbs."
     },
     {
-      "id": 103708614,
+      "id": 102985540,
       "date": "2026-04-19",
-      "name": "IntervalCoach - Endurance Build",
+      "name": "Aerobic Endurance Ride (2h)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 137,
+      "planned_tss": 126,
       "duration_hours": 3.0,
       "duration_formatted": "3h",
       "workout_summary": null,
       "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Endurance with pickups coming up. 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 44m 65% 85rpm\n- Build 44m 67% 88rpm\n- Upper Z2 44m 70-74% 90rpm\n- Cruise 23m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, antonikaminski! Enjoy the spin down. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Peak]"
+      "description": "- 10m 55% Warmup\n- 160m 70% Steady Z2\n- 10m 50% Cooldown\n\nSteady endurance."
     },
     {
       "id": 103265102,
@@ -2173,11 +2168,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 5,
-    "success": 0,
-    "patternA": 0,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 5
+    "bail_no_match": 4
   },
   "weekly_summary": {
     "total_training_hours": 15.21,
