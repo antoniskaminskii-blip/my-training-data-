@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T14:43:28.429570",
+  "generated_at": "2026-04-17T17:36:19.621167",
   "version": "3.95",
   "script_hash": "97bf788ee1c8",
   "scan_hours": 72,
@@ -328,6 +328,45 @@
           "zone": 2,
           "training_load": 21.641298,
           "decoupling": -7.6705136
+        }
+      ]
+    },
+    {
+      "activity_id": "i140653834",
+      "date": "2026-04-17",
+      "type": "Ride",
+      "name": "IntervalCoach - Endurance Build",
+      "interval_summary": [
+        "1x 5m 345w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1469,
+          "avg_power": 138,
+          "max_power": 379,
+          "avg_cadence": 60.2562,
+          "zone": 1,
+          "training_load": 14.160674
+        },
+        {
+          "type": "WORK",
+          "label": "300s@345w63rpm",
+          "duration_secs": 300,
+          "avg_power": 345,
+          "max_power": 463,
+          "avg_cadence": 62.92,
+          "zone": 6,
+          "training_load": 12.738292
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 6180,
+          "avg_power": 133,
+          "max_power": 629,
+          "avg_cadence": 63.93561,
+          "zone": 1,
+          "training_load": 57.042244
         }
       ]
     }
