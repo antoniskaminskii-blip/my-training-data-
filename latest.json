@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-18T05:55:15.261885",
+    "last_updated": "2026-04-18T08:09:09.198668",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -96,8 +96,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "unavailable",
@@ -107,13 +107,13 @@
       },
       "rhr": {
         "status": "green",
-        "value": 46,
-        "baseline_7d": 44.3,
-        "delta_bpm": 1.7
+        "value": 44,
+        "baseline_7d": 44,
+        "delta_bpm": 0
       },
       "sleep": {
-        "status": "red",
-        "hours": 4.78,
+        "status": "green",
+        "hours": 9.0,
         "quality": null
       },
       "acwr": {
@@ -130,9 +130,9 @@
       }
     },
     "signal_summary": {
-      "green": 2,
+      "green": 3,
       "amber": 1,
-      "red": 1,
+      "red": 0,
       "unavailable": 2
     },
     "phase_context": {
@@ -142,18 +142,8 @@
       "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "sleep",
-        "acwr"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": "Z2"
-      }
-    },
-    "reason": "P2 signal count. 1 red (sleep), 1 amber (acwr).",
+    "modification": null,
+    "reason": "P3 green light. 3 green, 1 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -226,19 +216,19 @@
     },
     "current_metrics": {
       "weight_kg": 63.0,
-      "resting_hr": 46,
+      "resting_hr": 44,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": 4.78,
-      "sleep_formatted": "4h47m",
+      "sleep_hours": 9.0,
+      "sleep_formatted": "9h",
       "sleep_score": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 1,
+      "soreness": 1,
+      "stress": 1,
+      "mood": 2,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -262,11 +252,11 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 44.3,
+    "rhr_baseline_7d": 44,
     "hrv_baseline_28d": null,
     "rhr_baseline_28d": 45.1,
     "latest_hrv": null,
-    "latest_rhr": 46,
+    "latest_rhr": 44,
     "acwr": 0.79,
     "acwr_interpretation": "undertraining",
     "monotony": 0.88,
@@ -589,7 +579,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.22,
+          "planned_tss_delta": 2.67,
           "hard_sessions_planned": 1,
           "race_proximity": 15,
           "next_week_load": 1.2,
@@ -629,7 +619,7 @@
     "p_max": 1007,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-18T05:55:15.260931",
+    "calculation_timestamp": "2026-04-18T08:09:09.197380",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1857,23 +1847,23 @@
     {
       "date": "2026-04-18",
       "weight_kg": null,
-      "resting_hr": 46,
+      "resting_hr": 44,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": 4.78,
-      "sleep_formatted": "4h47m",
+      "sleep_hours": 9.0,
+      "sleep_formatted": "9h",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
       "avg_sleeping_hr": null,
       "vo2max": null,
-      "fatigue": null,
-      "soreness": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "hydration": null,
+      "fatigue": 1,
+      "soreness": 1,
+      "stress": 1,
+      "mood": 2,
+      "motivation": 2,
+      "injury": 1,
+      "hydration": 2,
       "spO2": null,
       "blood_glucose": null,
       "systolic": null,
@@ -1896,18 +1886,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 105022167,
+      "id": 102985538,
       "date": "2026-04-18",
-      "name": "IntervalCoach - Endurance Ride",
+      "name": "Climbing Intervals: 6x8min (Wed)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 21,
-      "duration_hours": 0.45,
-      "duration_formatted": "27m",
-      "workout_summary": null,
+      "planned_tss": 196,
+      "duration_hours": 3.03,
+      "duration_formatted": "3h2m",
+      "workout_summary": "15m @151W | 30m | 6\u00d78m @288W / 4m rec | 50m | 15m @137W",
       "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Endurance ride awaits 4m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 20m 65-75% 85rpm\n\nCooldown\n- Fantastic work, let's recover 3m ramp 65-45% 85rpm"
+      "description": "- 15m 55% Warmup\n-30m Z2\n\n6x\n - 8m 105% Climb Repeat\n - 4m 50% Recovery\n\n- 50m z2\n- 15m 50% Cooldown\n\nVO2max repeatability for race climbs."
     },
     {
       "id": 102985540,
@@ -2072,11 +2061,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 6,
-    "success": 2,
-    "patternA": 1,
+    "success": 3,
+    "patternA": 2,
     "patternB": 1,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 4
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 8.05,
@@ -2084,7 +2073,7 @@
     "total_tss": 409,
     "activities_count": 4,
     "avg_hrv": null,
-    "avg_resting_hr": 44.3
+    "avg_resting_hr": 44.0
   },
   "race_calendar": {
     "next_race": {
