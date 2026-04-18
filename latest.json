@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-18T12:00:50.207265",
+    "last_updated": "2026-04-18T14:30:42.631038",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -113,7 +113,7 @@
       },
       "sleep": {
         "status": "green",
-        "hours": 9.0,
+        "hours": 10.13,
         "quality": null
       },
       "acwr": {
@@ -219,8 +219,8 @@
       "resting_hr": 44,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": 9.0,
-      "sleep_formatted": "9h",
+      "sleep_hours": 10.13,
+      "sleep_formatted": "10h8m",
       "sleep_score": null,
       "fatigue": 1,
       "soreness": 1,
@@ -238,7 +238,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 4221,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -579,7 +579,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.67,
+          "planned_tss_delta": 2.65,
           "hard_sessions_planned": 1,
           "race_proximity": 15,
           "next_week_load": 1.2,
@@ -619,7 +619,7 @@
     "p_max": 1007,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-18T12:00:50.205941",
+    "calculation_timestamp": "2026-04-18T14:30:42.629764",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1850,8 +1850,8 @@
       "resting_hr": 44,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": 9.0,
-      "sleep_formatted": "9h",
+      "sleep_hours": 10.13,
+      "sleep_formatted": "10h8m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -1873,7 +1873,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 4221,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1891,12 +1891,12 @@
       "name": "Climbing Intervals: 6x8min (Wed)",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 196,
+      "planned_tss": 194,
       "duration_hours": 3.03,
       "duration_formatted": "3h2m",
-      "workout_summary": "15m @151W | 30m | 6\u00d78m @288W / 4m rec | 50m | 15m @137W",
+      "workout_summary": "20m @151W | 6\u00d78m @288W / 4m rec | 1h15m | 15m @137W",
       "has_terrain": false,
-      "description": "- 15m 55% Warmup\n-30m Z2\n\n6x\n - 8m 105% Climb Repeat\n - 4m 50% Recovery\n\n- 50m z2\n- 15m 50% Cooldown\n\nVO2max repeatability for race climbs."
+      "description": "- 20m 55% Warmup\n\n6x\n - 8m 105% Climb Repeat\n - 4m 50% Recovery\n\n- 75m z2\n- 15m 50% Cooldown\n\nVO2max repeatability for race climbs."
     },
     {
       "id": 102985540,
