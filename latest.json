@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-19T19:59:15.734143",
+    "last_updated": "2026-04-19T21:54:17.391814",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -184,7 +184,7 @@
           "threshold_pace": null,
           "pace_units": null,
           "ftp": 275,
-          "ftp_indoor": 275
+          "ftp_indoor": 265
         },
         "run": {
           "lthr": 177,
@@ -591,7 +591,7 @@
     ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
-      "current_ftp": 275,
+      "current_ftp": 265,
       "ftp_8_weeks_ago": null,
       "benchmark_index": null,
       "benchmark_percentage": null,
@@ -610,7 +610,7 @@
     "p_max": 1007,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-19T19:59:15.732865",
+    "calculation_timestamp": "2026-04-19T21:54:17.390378",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1957,6 +1957,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
+      "indoor": true,
       "description": "Warmup\n- Hey antonikaminski! Long aerobic ride ahead 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 24m 65% 85rpm\n- Build 24m 67% 88rpm\n- Upper Z2 24m 70-74% 90rpm\n- Cruise 23m 74-70% 88rpm\n\nCooldown\n- Fantastic work, spin easy now 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
@@ -1985,6 +1986,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
+      "indoor": true,
       "description": "Warmup\n- Hey antonikaminski! Let's get ready for FTP intervals 9m ramp 45-75% 85rpm\n\nMain Set\n- Threshold 1 20m 95% 90rpm\n- Recovery 5m 55% 80rpm\n- Threshold 2 20m 98-105% 95rpm\n\nCooldown\n- Fantastic job, enjoy the recovery spin 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
