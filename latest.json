@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-19T18:05:26.447866",
+    "last_updated": "2026-04-19T19:59:15.734143",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -610,7 +610,7 @@
     "p_max": 1007,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-19T18:05:26.446510",
+    "calculation_timestamp": "2026-04-19T19:59:15.732865",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -2115,11 +2115,11 @@
         "has_terrain": false
       },
       {
-        "name": "harasiuki",
-        "date": "2026-07-18",
-        "category": "RACE_C",
+        "name": "ntrc",
+        "date": "2026-07-04",
+        "category": "RACE_B",
         "type": "Ride",
-        "days_until": 90,
+        "days_until": 76,
         "moving_time_seconds": null,
         "distance_meters": null,
         "has_terrain": false
