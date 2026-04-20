@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-20T11:57:23.557330",
+    "last_updated": "2026-04-20T16:20:57.149373",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -228,7 +228,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3385,
+      "steps": 5915,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -571,12 +571,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.51,
+          "planned_tss_delta": 1.59,
           "hard_sessions_planned": 5,
           "race_proximity": 13,
           "next_week_load": null,
           "plan_coverage_current_week": 1.0,
-          "plan_coverage_next_week": 0.2
+          "plan_coverage_next_week": 0.4
         },
         "data_quality": "good",
         "stream_agreement": false
@@ -611,7 +611,7 @@
     "p_max": 1007,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-20T11:57:23.555993",
+    "calculation_timestamp": "2026-04-20T16:20:57.148083",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1886,7 +1886,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3385,
+      "steps": 5915,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1910,6 +1910,7 @@
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
+      "indoor": true,
       "description": "Warmup\n- Hey antonikaminski! Progressive threshold awaits 9m ramp 45-75% 85rpm\n\nMain Set\n- Build 1 13m 88-93% 88rpm\n- Recovery 3m 55% 80rpm\n- Build 2 13m 97-102% 92rpm\n- Recovery 3m 55% 80rpm\n- Build 3 13m 105% 95rpm\n\n\n-30m z2\n\nCooldown\n- Awesome work, antonikaminski! Recover well 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
@@ -1918,13 +1919,13 @@
       "name": "IntervalCoach - Endurance Build",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 104,
-      "duration_hours": 1.95,
-      "duration_formatted": "1h57m",
-      "workout_summary": "15m @164W | 20m @178W | 20m @184W | 6\u00d71m @288W / 1m rec | 2 \u00d7 20m @198W | 10m @150W",
+      "planned_tss": 128,
+      "duration_hours": 2.15,
+      "duration_formatted": "2h9m",
+      "workout_summary": "15m @164W | 20m @178W | 20m @184W | 6\u00d71m @288W / 1m rec | 20m @198W | 6\u00d71m @288W / 1m rec | 20m @198W | 10m @150W",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Endurance ride awaits 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 20m 65% 85rpm\n- Build 20m 67% 88rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\n- Upper Z2 20m 70-74% 90rpm\n- Cruise 20m 74-70% 88rpm\n\nCooldown\n- Fantastic work, spin easy now 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "Warmup\n- Hey antonikaminski! Endurance ride awaits 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 20m 65% 85rpm\n- Build 20m 67% 88rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\n- Upper Z2 20m 70-74% 90rpm\n\n6x\n- Over 1m 105% 95rpm\n- Under 1m 95% 90rpm\n\n- Cruise 20m 74-70% 88rpm\n\nCooldown\n- Fantastic work, spin easy now 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
       "id": 105473938,
@@ -1932,13 +1933,13 @@
       "name": "IntervalCoach - Aerobic Endurance",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 109,
+      "planned_tss": 118,
       "duration_hours": 2.08,
       "duration_formatted": "2h5m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Progressive aerobic ride awaits 15m ramp 45-75% 85rpm\n\n- Z2 Upper 100m 75% 90rpm\n\nCooldown\n- Fantastic ride, antonikaminski! Recover well 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "Warmup\n- Hey antonikaminski! Progressive aerobic ride awaits 15m ramp 45-75% 85rpm\n\n- Z2 Upper 100m 78% 90rpm\n\nCooldown\n- Fantastic ride, antonikaminski! Recover well 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
       "id": 105473957,
@@ -1969,6 +1970,19 @@
       "description": "Warmup\n- Hey antonikaminski! Big endurance ride today. 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 48m 65% 85rpm\n- Build 38m 67% 88rpm\n- Upper Z2 38m 70-74% 90rpm\n- Cruise 36m 74-70% 88rpm\n\nCooldown\n- Awesome job, freewheel and recover. 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 105530655,
+      "date": "2026-04-27",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": ""
+    },
+    {
       "id": 104702035,
       "date": "2026-05-03",
       "name": "bardejov",
@@ -1977,6 +1991,32 @@
       "planned_tss": null,
       "duration_hours": 3.0,
       "duration_formatted": "3h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 105530689,
+      "date": "2026-05-04",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 105530744,
+      "date": "2026-05-11",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": null
@@ -1993,6 +2033,45 @@
       "workout_summary": null,
       "has_terrain": false,
       "description_preview": "A-RACE: Arlamow Lang\nFocus on maintaining torque for the 8m climbs and pacing the 25m final ascent."
+    },
+    {
+      "id": 105530788,
+      "date": "2026-05-18",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 105530820,
+      "date": "2026-05-25",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
+      "id": 105531033,
+      "date": "2026-06-01",
+      "name": "Weekly",
+      "type": "TARGET",
+      "sport_type": "Ride",
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
     }
   ],
   "workout_summary_stats": {
