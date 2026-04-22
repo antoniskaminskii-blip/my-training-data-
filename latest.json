@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-22T06:26:00.824248",
+    "last_updated": "2026-04-22T10:49:35.549854",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -94,7 +94,7 @@
       },
       "sleep": {
         "status": "green",
-        "hours": 7.13,
+        "hours": 7.35,
         "quality": null
       },
       "acwr": {
@@ -200,8 +200,8 @@
       "resting_hr": 44,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": 7.13,
-      "sleep_formatted": "7h8m",
+      "sleep_hours": 7.35,
+      "sleep_formatted": "7h21m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -219,7 +219,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 43,
+      "steps": 979,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -562,7 +562,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.14,
+          "planned_tss_delta": 1.94,
           "hard_sessions_planned": 4,
           "race_proximity": 11,
           "next_week_load": 0.34,
@@ -602,7 +602,7 @@
     "p_max": 1007,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-22T06:26:00.822944",
+    "calculation_timestamp": "2026-04-22T10:49:35.548471",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1785,8 +1785,8 @@
       "resting_hr": 44,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": 7.13,
-      "sleep_formatted": "7h8m",
+      "sleep_hours": 7.35,
+      "sleep_formatted": "7h21m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -1808,7 +1808,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 43,
+      "steps": 979,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1821,22 +1821,8 @@
   ],
   "planned_workouts": [
     {
-      "id": 105857047,
-      "date": "2026-04-22",
-      "name": "IntervalCoach - Sweet Spot Intervals",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 186,
-      "duration_hours": 2.5,
-      "duration_formatted": "2h30m",
-      "workout_summary": "15m @164W | 5\u00d723m @250W / 2m rec | 10m @150W",
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski, dense sweet spot awaits! 15m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Sweet Spot 23m 88-94% 90rpm\n- Recovery 2m 55% 85rpm\n\nCooldown\n- Awesome work, recover well! 10m ramp 65-45% 85rpm"
-    },
-    {
       "id": 105711759,
-      "date": "2026-04-23",
+      "date": "2026-04-22",
       "name": "a",
       "type": "WORKOUT",
       "sport_type": "Ride",
@@ -1849,17 +1835,31 @@
     },
     {
       "id": 105473938,
-      "date": "2026-04-24",
+      "date": "2026-04-23",
       "name": "IntervalCoach - Aerobic Endurance",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 118,
-      "duration_hours": 2.08,
-      "duration_formatted": "2h5m",
+      "planned_tss": 138,
+      "duration_hours": 2.42,
+      "duration_formatted": "2h25m",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Progressive aerobic ride awaits 15m ramp 45-75% 85rpm\n\n- Z2 Upper 100m 78% 90rpm\n\nCooldown\n- Fantastic ride, antonikaminski! Recover well 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+      "description": "Warmup\n- Hey antonikaminski! Progressive aerobic ride awaits 15m ramp 45-75% 85rpm\n\n- Z2 Upper 120m 78% 90rpm\n\nCooldown\n- Fantastic ride, antonikaminski! Recover well 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Build]"
+    },
+    {
+      "id": 105857047,
+      "date": "2026-04-24",
+      "name": "IntervalCoach - Sweet Spot Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 106,
+      "duration_hours": 1.98,
+      "duration_formatted": "1h59m",
+      "workout_summary": "15m @164W | 30m @180W | 2\u00d715m @250W / 2m rec | 30m @170W | 10m @150W",
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- Hey antonikaminski, dense sweet spot awaits! 15m ramp 45-75% 85rpm\n\n-30m 180W\n\nMain Set\n2x\n- Sweet Spot 15m 88-94% 90rpm\n- Recovery 2m 55% 85rpm\n\n-30m 170W\n\nCooldown\n- Awesome work, recover well! 10m ramp 65-45% 85rpm"
     },
     {
       "id": 105473957,
