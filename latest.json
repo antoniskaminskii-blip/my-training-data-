@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-23T16:54:55.417200",
+    "last_updated": "2026-04-23T20:15:27.038362",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -145,7 +145,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-02",
-    "age_days": 20,
+    "age_days": 21,
     "total_months": 25,
     "history_confidence": "high"
   },
@@ -576,9 +576,9 @@
           "planned_tss_delta": 1.8,
           "hard_sessions_planned": 4,
           "race_proximity": 10,
-          "next_week_load": 0.79,
+          "next_week_load": 0.97,
           "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 0.8
+          "plan_coverage_next_week": 1.0
         },
         "data_quality": "good",
         "stream_agreement": false
@@ -613,7 +613,7 @@
     "p_max": 1007,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-23T16:54:55.062590",
+    "calculation_timestamp": "2026-04-23T20:15:27.036993",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1973,18 +1973,31 @@
       "description": ""
     },
     {
-      "id": 105956409,
-      "date": "2026-04-29",
-      "name": "IntervalCoach - Tempo",
+      "id": 106137580,
+      "date": "2026-04-28",
+      "name": "a",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 105,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": "15m @164W | 12m @192W | 3\u00d720m @217W / 5m rec | 10m @150W",
+      "planned_tss": 64,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "-1h30m z2"
+    },
+    {
+      "id": 106128253,
+      "date": "2026-04-29",
+      "name": "IntervalCoach - VO2max Intervals",
+      "type": "WORKOUT",
+      "sport_type": "Ride",
+      "planned_tss": 136,
+      "duration_hours": 2.05,
+      "duration_formatted": "2h3m",
+      "workout_summary": "15m @164W | 25m @192W | 8\u00d73m @310W / 3m rec | 25m @192W | 10m @150W",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Tempo is the name of the game 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 12m 65-75% 85rpm\n- Tempo 1 20m 76-82% 90rpm\n- Recovery 5m 55% 85rpm\n- Tempo 2 20m 76-82% 90rpm\n- Recovery 5m 55% 85rpm\n- Tempo 3 20m 76-82% 90rpm\n- Endurance 13m 65-75% 85rpm\n\nCooldown\n- Awesome ride, enjoy the recovery spin 10m ramp 65-45% 85rpm"
+      "description": "Warmup\n- Hey antonikaminski, VO2max intervals await! 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 25m 65-75% 85rpm\n\n8x\n- VO2max 3m 106-120% 100rpm\n- Recovery 3m 55% 80rpm\n\nRecovery\n- Endurance 25m 65-75% 85rpm\n\nCooldown\n- Awesome work, enjoy the spin 10m ramp 65-45% 85rpm"
     },
     {
       "id": 105956796,
@@ -2010,7 +2023,7 @@
       "duration_formatted": "3h",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": null
+      "description_preview": "18km false flat 2x 3km 3% climb 7km false flat descent 600m 10% climb 6km false flat descent 14km rolling lead in 2.5km 5.5% climb i can do power to stay in g1 on the climbs, but are the lightest of them, so flats are not strong suit. recommend whether to go into break, when to cover attacks, when to let them go, power targets for all of the climbs assuming ftp@ 300W, and also tips on fueling and overall racing"
     },
     {
       "id": 105530689,
@@ -2092,12 +2105,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
+    "attempted": 7,
     "success": 2,
-    "patternA": 1,
-    "patternB": 1,
-    "bail_no_workout_doc": 1,
-    "bail_no_match": 4
+    "patternA": 2,
+    "patternB": 0,
+    "bail_no_workout_doc": 2,
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 14.07,
