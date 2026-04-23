@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T10:56:41.959451",
+  "generated_at": "2026-04-23T16:54:55.063709",
   "version": "3.95",
   "script_hash": "97bf788ee1c8",
   "scan_hours": 72,
@@ -706,6 +706,54 @@
           "zone": 2,
           "training_load": 24.549288,
           "decoupling": -3.392256
+        }
+      ]
+    },
+    {
+      "activity_id": "i142284642",
+      "date": "2026-04-23",
+      "type": "Ride",
+      "name": "IntervalCoach - Tempo Endurance",
+      "interval_summary": [
+        "1x 1h40m 217w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 991,
+          "avg_power": 171,
+          "max_power": 226,
+          "avg_hr": 117,
+          "max_hr": 153,
+          "avg_cadence": 83.14095,
+          "zone": 2,
+          "training_load": 10.579667,
+          "decoupling": -15.629169
+        },
+        {
+          "type": "WORK",
+          "label": "6032s@217w87rpm",
+          "duration_secs": 6032,
+          "avg_power": 217,
+          "max_power": 329,
+          "avg_hr": 152,
+          "max_hr": 165,
+          "avg_cadence": 86.9229,
+          "zone": 3,
+          "training_load": 107.4335,
+          "decoupling": 4.3880653
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 302,
+          "avg_power": 145,
+          "max_power": 214,
+          "avg_hr": 145,
+          "max_hr": 158,
+          "avg_cadence": 82.248344,
+          "zone": 1,
+          "training_load": 2.7089894,
+          "decoupling": 4.45338
         }
       ]
     }
