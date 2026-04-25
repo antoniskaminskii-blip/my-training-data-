@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-25T14:11:56.938513",
+    "last_updated": "2026-04-25T16:08:23.629170",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -570,7 +570,7 @@
           "planned_tss_delta": 1.68,
           "hard_sessions_planned": 2,
           "race_proximity": 8,
-          "next_week_load": 0.99,
+          "next_week_load": 0.94,
           "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.2
         },
@@ -607,7 +607,7 @@
     "p_max": 1007,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-25T14:11:56.293326",
+    "calculation_timestamp": "2026-04-25T16:08:23.627808",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -651,8 +651,8 @@
       "efficiency_factor": 1.4529915,
       "hrrc": null,
       "elevation_m": 340.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 3,
+      "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 9834,
@@ -704,8 +704,8 @@
       "efficiency_factor": 1.3115942,
       "hrrc": null,
       "elevation_m": 214.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 2,
+      "rpe": 4,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 9321,
@@ -757,8 +757,8 @@
       "efficiency_factor": 1.4421768,
       "hrrc": null,
       "elevation_m": 0.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 1,
+      "rpe": 5,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 2872,
@@ -810,8 +810,8 @@
       "efficiency_factor": 1.3310345,
       "hrrc": null,
       "elevation_m": 309.0,
-      "feel": null,
-      "rpe": null,
+      "feel": 3,
+      "rpe": 3,
       "zone_distribution": {
         "hr_zones": {
           "z1_time": 5699,
@@ -1988,7 +1988,7 @@
       "description": "-30m z2\n\n-8m 300W\n-12m 190W\n-2m 400W\n-12m 200W\n-8m 280W\n-12m 190W\n-2m 360W\n-10m Z2\n-8m 320W\n\n-15m z2"
     },
     {
-      "id": 105530655,
+      "id": 106421169,
       "date": "2026-04-27",
       "name": "Weekly",
       "type": "TARGET",
@@ -2056,17 +2056,17 @@
       "description": "Warmup\n- Hey antonikaminski! Openers are here 14m ramp 45-75% 85rpm\n\nMain Set\n- Easy 57m 65-75% 85rpm\n\n3x\n- Opener 30s 106% 100rpm\n- Recovery 2m 55% 80rpm\n\n- Sprint 1 15s 150% 110rpm\n- Recovery 2m 55% 80rpm\n- Sprint 2 15s 150% 110rpm\n\nCooldown\n- Well done, antonikaminski! Recover well 9m ramp 65-45% 85rpm"
     },
     {
-      "id": 104702035,
+      "id": 106421192,
       "date": "2026-05-03",
       "name": "bardejov",
       "type": "RACE_B",
       "sport_type": "Ride",
-      "planned_tss": 230,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
+      "planned_tss": 200,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
       "workout_summary": null,
       "has_terrain": false,
-      "description_preview": "18km false flat 2x 3km 3% climb 7km false flat descent 600m 10% climb 6km false flat descent 14km rolling lead in 2.5km 5.5% climb i can do power to stay in g1 on the climbs, but are the lightest of them, so flats are not strong suit. recommend whether to go into break, when to cover attacks, when to let them go, power targets for all of the climbs assuming ftp@ 300W, and also tips on fueling and overall racing"
+      "description_preview": null
     },
     {
       "id": 105530689,
@@ -2152,7 +2152,7 @@
     "success": 3,
     "patternA": 2,
     "patternB": 1,
-    "bail_no_workout_doc": 2,
+    "bail_no_workout_doc": 1,
     "bail_no_match": 3
   },
   "weekly_summary": {
@@ -2170,7 +2170,7 @@
       "category": "RACE_B",
       "type": "Ride",
       "days_until": 8,
-      "moving_time_seconds": 10800,
+      "moving_time_seconds": null,
       "distance_meters": null,
       "has_terrain": false
     },
@@ -2181,7 +2181,7 @@
         "category": "RACE_B",
         "type": "Ride",
         "days_until": 8,
-        "moving_time_seconds": 10800,
+        "moving_time_seconds": null,
         "distance_meters": null,
         "has_terrain": false
       },
