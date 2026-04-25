@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-25T05:58:42.105863",
+    "last_updated": "2026-04-25T09:13:46.708994",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -566,7 +566,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.73,
+          "planned_tss_delta": 1.8,
           "hard_sessions_planned": 2,
           "race_proximity": 8,
           "next_week_load": 1.06,
@@ -606,7 +606,7 @@
     "p_max": 1007,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-25T05:58:42.104492",
+    "calculation_timestamp": "2026-04-25T09:13:46.707666",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -1906,18 +1906,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 105857047,
+      "id": 106358617,
       "date": "2026-04-25",
-      "name": "IntervalCoach - Aerobic Endurance",
+      "name": "IntervalCoach - Sweet Spot Intervals",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 126,
-      "duration_hours": 3.0,
-      "duration_formatted": "3h",
-      "workout_summary": null,
+      "planned_tss": 137,
+      "duration_hours": 2.33,
+      "duration_formatted": "2h20m",
+      "workout_summary": "15m @164W | 30m @192W | 3\u00d715m @250W / 5m rec | 10m @150W",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski, dense sweet spot awaits! 15m ramp 45-75% 85rpm\n\n-155m 180W\n\nCooldown\n- Awesome work, recover well! 10m ramp 65-45% 85rpm"
+      "description": "Warmup\n- Hey antonikaminski! Steady state awaits 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 30m 65-75% 85rpm\n- Sweet Spot 1 15m 88-94% 90rpm\n- Recovery 5m 55% 85rpm\n- Sweet Spot 2 15m 88-94% 90rpm\n- Recovery 5m 55% 85rpm\n- Sweet Spot 3 15m 88-94% 90rpm\n- Endurance 30m 65-75% 85rpm\n\nCooldown\n- Awesome ride, recover well 10m ramp 65-45% 85rpm"
     },
     {
       "id": 105473957,
@@ -2095,11 +2095,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 6,
-    "success": 2,
+    "success": 3,
     "patternA": 2,
-    "patternB": 0,
+    "patternB": 1,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 4
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 12.0,
