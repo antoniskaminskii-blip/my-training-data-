@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-25T16:08:23.629170",
+    "last_updated": "2026-04-25T18:07:29.551264",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -139,7 +139,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-04-02",
-    "age_days": 22,
+    "age_days": 23,
     "total_months": 25,
     "history_confidence": "high"
   },
@@ -570,7 +570,7 @@
           "planned_tss_delta": 1.68,
           "hard_sessions_planned": 2,
           "race_proximity": 8,
-          "next_week_load": 0.94,
+          "next_week_load": 0.92,
           "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.2
         },
@@ -607,7 +607,7 @@
     "p_max": 1007,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-25T16:08:23.627808",
+    "calculation_timestamp": "2026-04-25T18:07:29.549842",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 7,
@@ -2003,29 +2003,29 @@
     {
       "id": 106137580,
       "date": "2026-04-28",
-      "name": "a",
+      "name": "IntervalCoach - VO2max Intervals",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 64,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
+      "planned_tss": 110,
+      "duration_hours": 1.55,
+      "duration_formatted": "1h33m",
+      "workout_summary": "5m | 8\u00d73m @310W / 3m rec | 40m",
       "has_terrain": false,
-      "description": "-1h30m z2"
+      "description": "-5m z1-z2\n\n\n8x\n- VO2max 3m 106-120% 100rpm\n- Recovery 3m 55% 80rpm\n\n-40m z2"
     },
     {
       "id": 106128253,
       "date": "2026-04-29",
-      "name": "IntervalCoach - VO2max Intervals",
+      "name": "IntervalCoach - endurance",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 136,
-      "duration_hours": 2.05,
-      "duration_formatted": "2h3m",
-      "workout_summary": "15m @164W | 25m @192W | 8\u00d73m @310W / 3m rec | 25m @192W | 10m @150W",
+      "planned_tss": 92,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski, VO2max intervals await! 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 25m 65-75% 85rpm\n\n8x\n- VO2max 3m 106-120% 100rpm\n- Recovery 3m 55% 80rpm\n\nRecovery\n- Endurance 25m 65-75% 85rpm\n\nCooldown\n- Awesome work, enjoy the spin 10m ramp 65-45% 85rpm"
+      "description": "Warmup\n- Hey antonikaminski, VO2max intervals await! 15m ramp 45-75% 85rpm\n\nMain Set\n- Endurance 70m 65-75% 85rpm\n\n\n\nRecovery\n- Endurance 25m 65-75% 85rpm\n\nCooldown\n- Awesome work, enjoy the spin 10m ramp 65-45% 85rpm"
     },
     {
       "id": 106191221,
@@ -2033,13 +2033,13 @@
       "name": "IntervalCoach - Endurance with Pickups",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 91,
+      "planned_tss": 82,
       "duration_hours": 2.0,
       "duration_formatted": "2h",
       "workout_summary": null,
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski, endurance with pickups! 15m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 24m 65% 85rpm\n- Build 24m 67% 88rpm\n- Upper Z2 24m 70-74% 90rpm\n- Cruise 23m 74-70% 88rpm\n\nCooldown\n- Fantastic ride, well done! 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Race Week]"
+      "description": "Warmup\n- Hey antonikaminski, endurance with pickups! 15m ramp 45-75% 85rpm\n\n-1h35m z2\n\nCooldown\n- Fantastic ride, well done! 10m ramp 65-45% 85rpm\n\n[Weekly Plan - Race Week]"
     },
     {
       "id": 105956796,
@@ -2047,13 +2047,13 @@
       "name": "IntervalCoach - Endurance Intervals",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 70,
+      "planned_tss": 63,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
-      "workout_summary": "14m @164W | 57m @192W | 3\u00d730s @291W / 2m rec | 15s @412W | 2m @151W | 15s @412W | 9m @150W",
+      "workout_summary": "14m @164W | 57m @178W | 3\u00d730s @291W / 2m rec | 15s @412W | 2m @151W | 15s @412W | 9m @150W",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "Warmup\n- Hey antonikaminski! Openers are here 14m ramp 45-75% 85rpm\n\nMain Set\n- Easy 57m 65-75% 85rpm\n\n3x\n- Opener 30s 106% 100rpm\n- Recovery 2m 55% 80rpm\n\n- Sprint 1 15s 150% 110rpm\n- Recovery 2m 55% 80rpm\n- Sprint 2 15s 150% 110rpm\n\nCooldown\n- Well done, antonikaminski! Recover well 9m ramp 65-45% 85rpm"
+      "description": "Warmup\n- Hey antonikaminski! Openers are here 14m ramp 45-75% 85rpm\n\nMain Set\n- Easy 57m 65%\n\n3x\n- Opener 30s 106% 100rpm\n- Recovery 2m 55% 80rpm\n\n- Sprint 1 15s 150% 110rpm\n- Recovery 2m 55% 80rpm\n- Sprint 2 15s 150% 110rpm\n\nCooldown\n- Well done, antonikaminski! Recover well 9m ramp 65-45% 85rpm"
     },
     {
       "id": 106421192,
