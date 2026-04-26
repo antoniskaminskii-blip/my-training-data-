@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-26T00:05:57.121550",
+    "last_updated": "2026-04-26T07:06:16.245082",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.95"
@@ -97,14 +97,14 @@
         "delta_pct": null
       },
       "rhr": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 44.8,
-        "delta_bpm": null
+        "status": "green",
+        "value": 44,
+        "baseline_7d": 44.7,
+        "delta_bpm": -0.7
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
+        "status": "green",
+        "hours": 8.23,
         "quality": null
       },
       "acwr": {
@@ -121,10 +121,10 @@
       }
     },
     "signal_summary": {
-      "green": 1,
+      "green": 3,
       "amber": 1,
       "red": 0,
-      "unavailable": 4
+      "unavailable": 2
     },
     "phase_context": {
       "phase": "Taper",
@@ -210,11 +210,11 @@
     },
     "current_metrics": {
       "weight_kg": 63.0,
-      "resting_hr": 46,
+      "resting_hr": 44,
       "hrv": null,
       "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 8.23,
+      "sleep_formatted": "8h14m",
       "sleep_score": null,
       "fatigue": null,
       "soreness": null,
@@ -232,7 +232,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 15,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -246,11 +246,11 @@
   "derived_metrics": {
     "recovery_index": null,
     "hrv_baseline_7d": null,
-    "rhr_baseline_7d": 44.8,
+    "rhr_baseline_7d": 44.7,
     "hrv_baseline_28d": null,
-    "rhr_baseline_28d": 44.7,
+    "rhr_baseline_28d": 44.6,
     "latest_hrv": null,
-    "latest_rhr": null,
+    "latest_rhr": 44,
     "acwr": 1.04,
     "acwr_interpretation": "optimal",
     "monotony": 1.45,
@@ -576,7 +576,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.73,
+          "planned_tss_delta": 2.42,
           "hard_sessions_planned": 1,
           "race_proximity": 7,
           "next_week_load": 0.92,
@@ -616,10 +616,10 @@
     "p_max": 1007,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-26T00:05:57.118600",
+    "calculation_timestamp": "2026-04-26T07:06:16.243594",
     "data_quality": {
       "hrv_data_points": 0,
-      "rhr_data_points": 6,
+      "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 21,
       "planned_workouts_7d": 6,
@@ -1874,7 +1874,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1729,
+      "steps": 2616,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1887,11 +1887,11 @@
     {
       "date": "2026-04-26",
       "weight_kg": null,
-      "resting_hr": null,
+      "resting_hr": 44,
       "hrv_rmssd": null,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
+      "sleep_hours": 8.23,
+      "sleep_formatted": "8h14m",
       "sleep_quality": null,
       "sleep_score": null,
       "mental_energy": null,
@@ -1913,7 +1913,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": null,
+      "steps": 15,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -1926,18 +1926,18 @@
   ],
   "planned_workouts": [
     {
-      "id": 105473957,
+      "id": 106512362,
       "date": "2026-04-26",
-      "name": "race sim bardejov",
+      "name": "IntervalCoach - Sweet Spot Repeats",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 147,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": null,
+      "planned_tss": 206,
+      "duration_hours": 2.75,
+      "duration_formatted": "2h45m",
+      "workout_summary": "15m @164W | 5\u00d726m @250W / 2m rec | 10m @150W",
       "has_terrain": false,
       "start_time": "09:00",
-      "description": "-30m z2\n\n-8m 300W\n-12m 190W\n-2m 400W\n-9m 180W\n-8m 280W\n-12m 190W\n-2m 360W\n-10m Z2\n-8m 320W\n\n-19m z2"
+      "description": "Warmup\n- Hey antonikaminski! Steady sweet spot intervals await 15m ramp 45-75% 85rpm\n\nMain Set\n5x\n- Sweet Spot 26m 88-94% 90rpm\n- Recovery 2m 55% 85rpm\n\nCooldown\n- Fantastic ride, enjoy the recovery spin 10m ramp 65-45% 85rpm"
     },
     {
       "id": 106421169,
@@ -2101,11 +2101,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 5,
-    "success": 2,
-    "patternA": 2,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 3
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 11.93,
@@ -2113,7 +2113,7 @@
     "total_tss": 598,
     "activities_count": 5,
     "avg_hrv": null,
-    "avg_resting_hr": 44.8
+    "avg_resting_hr": 44.7
   },
   "race_calendar": {
     "next_race": {
