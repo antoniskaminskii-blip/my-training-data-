@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T16:18:54.252858",
+  "generated_at": "2026-04-28T20:50:03.100253",
   "version": "3.95",
   "script_hash": "97bf788ee1c8",
   "scan_hours": 72,
@@ -1001,6 +1001,65 @@
           "zone": 2,
           "training_load": 8.101294,
           "decoupling": 7.466077
+        }
+      ]
+    },
+    {
+      "activity_id": "i143823394",
+      "date": "2026-04-28",
+      "type": "Ride",
+      "name": "IntervalCoach - Recovery Spin",
+      "interval_summary": [
+        "1x 36s 479w",
+        "1x 11s 654w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2091,
+          "avg_power": 128,
+          "max_power": 647,
+          "avg_cadence": 57.494087,
+          "zone": 1,
+          "training_load": 14.81508
+        },
+        {
+          "type": "WORK",
+          "label": "36s@479w95rpm",
+          "duration_secs": 36,
+          "avg_power": 479,
+          "max_power": 553,
+          "avg_cadence": 94.97222,
+          "zone": 7,
+          "training_load": 1.9954032
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 43,
+          "avg_power": 201,
+          "max_power": 493,
+          "avg_cadence": 96.16279,
+          "zone": 2,
+          "training_load": 1.5234877
+        },
+        {
+          "type": "WORK",
+          "label": "11s@654w92rpm",
+          "duration_secs": 11,
+          "avg_power": 654,
+          "max_power": 799,
+          "avg_cadence": 91.90909,
+          "zone": 7,
+          "training_load": 0.35207474
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 427,
+          "avg_power": 131,
+          "max_power": 675,
+          "avg_cadence": 63.52693,
+          "zone": 1,
+          "training_load": 5.6849113
         }
       ]
     }
